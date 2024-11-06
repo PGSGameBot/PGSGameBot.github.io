@@ -1,0 +1,1905 @@
+{
+    "culture": [
+        {
+            "question": "Quel est l'élément fondamental de la culture d'entreprise ?",
+            "answers": ["Les valeurs partagées", "Les procédures opérationnelles", "Le nombre d'employés", "Le budget marketing"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la principale méthode pour promouvoir une culture d'entreprise positive ?",
+            "answers": ["Encourager la reconnaissance des employés", "Augmenter les heures de travail", "Réduire les pauses déjeuner", "Favoriser les réunions fréquentes"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les comportements et attitudes attendus des employés au sein d'une entreprise ?",
+            "answers": ["Normes culturelles", "Politiques d'entreprise", "Procédures opérationnelles", "Codes de conduite"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'objectif principal des activités de team-building dans une entreprise ?",
+            "answers": ["Renforcer la cohésion d'équipe", "Augmenter les bénéfices", "Réduire les coûts", "Améliorer les compétences techniques"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la manière dont les employés perçoivent et comprennent la culture de leur entreprise ?",
+            "answers": ["Climat organisationnel", "Structure hiérarchique", "Plan stratégique", "Gestion des ressources"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal moyen de transmettre la culture d'entreprise aux nouveaux employés ?",
+            "answers": ["Programme d'intégration", "Formation continue", "Réunions d'équipe", "Évaluations de performance"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les valeurs et croyances qui guident le comportement des employés au sein d'une organisation ?",
+            "answers": ["Culture organisationnelle", "Structure organisationnelle", "Objectifs stratégiques", "Processus opérationnels"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle du leadership dans le maintien d'une culture d'entreprise ?",
+            "answers": ["Modéliser les comportements souhaités", "Déterminer les politiques de rémunération", "Gérer les relations publiques", "Augmenter les ventes"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle pratique est souvent associée à une culture d'entreprise axée sur l'innovation ?",
+            "answers": ["Encourager la prise de risques", "Imposer des procédures strictes", "Réduire la flexibilité", "Limiter la créativité"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les traditions et rituels qui sont propres à une entreprise ?",
+            "answers": ["Culture d'entreprise", "Événements sociaux", "Programmes de formation", "Récompenses et reconnaissance"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal avantage d'une culture d'entreprise forte et cohérente ?",
+            "answers": ["Augmentation de la satisfaction des employés", "Réduction des coûts de production", "Diminution du turnover", "Amélioration des ventes"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le processus de création d'une vision partagée de la culture d'entreprise parmi les employés ?",
+            "answers": ["Communication interne", "Planification stratégique", "Gestion du changement", "Formation des employés"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des valeurs de l'entreprise dans la culture organisationnelle ?",
+            "answers": ["Guider les comportements et les décisions", "Déterminer les salaires", "Fixer les objectifs financiers", "Établir les horaires de travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle stratégie aide à renforcer une culture d'entreprise positive ?",
+            "answers": ["Reconnaître et célébrer les succès des employés", "Augmenter les heures de travail", "Réduire les avantages sociaux", "Imposer des règles strictes"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les activités informelles qui aident à construire des relations entre les employés ?",
+            "answers": ["Événements sociaux", "Réunions formelles", "Formations professionnelles", "Séances de feedback"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal objectif d'un programme de reconnaissance des employés dans la culture d'entreprise ?",
+            "answers": ["Motiver et encourager les performances élevées", "Réduire les coûts opérationnels", "Augmenter les heures de travail", "Imposer des sanctions pour les retards"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les attitudes et croyances partagées qui façonnent la manière dont les employés interagissent au travail ?",
+            "answers": ["Culture organisationnelle", "Structure organisationnelle", "Planification stratégique", "Politiques d'entreprise"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des leaders dans le développement d'une culture d'entreprise ?",
+            "answers": ["Inspirer et motiver les employés", "Gérer les finances", "Développer les produits", "Optimiser les processus"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les éléments visibles de la culture d'entreprise, comme les logos et les bureaux ?",
+            "answers": ["Culture visible", "Valeurs organisationnelles", "Normes de comportement", "Pratiques de travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la pratique de gestion qui consiste à aligner les objectifs individuels avec les valeurs de l'entreprise ?",
+            "answers": ["Gestion de la performance", "Planification stratégique", "Gestion des ressources humaines", "Développement organisationnel"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les attentes informelles et non écrites que les employés ont sur le comportement au travail ?",
+            "answers": ["Culture d'entreprise", "Règles de conduite", "Politiques d'entreprise", "Code de déontologie"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel une entreprise adapte sa culture pour répondre aux défis et opportunités ?",
+            "answers": ["Gestion du changement culturel", "Planification stratégique", "Développement des ressources humaines", "Optimisation des processus"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les pratiques de gestion qui encouragent la collaboration et le travail d'équipe ?",
+            "answers": ["Culture collaborative", "Structure hiérarchique", "Plan de développement", "Politique de rémunération"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les croyances et valeurs qui façonnent la façon dont les employés prennent des décisions ?",
+            "answers": ["Culture d'entreprise", "Normes de comportement", "Plan stratégique", "Objectifs organisationnels"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des récompenses dans le renforcement de la culture d'entreprise ?",
+            "answers": ["Encourager les comportements alignés avec les valeurs de l'entreprise", "Augmenter la charge de travail", "Réduire les coûts opérationnels", "Gérer les conflits internes"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les attitudes et comportements partagés qui influencent la façon dont les employés interagissent au quotidien ?",
+            "answers": ["Culture organisationnelle", "Politique de l'entreprise", "Structure hiérarchique", "Plan de communication"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal avantage d'une culture d'entreprise alignée avec la vision stratégique de l'organisation ?",
+            "answers": ["Amélioration de l'engagement des employés", "Augmentation des coûts", "Réduction de la satisfaction des clients", "Complexification des processus"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des valeurs fondamentales dans la culture d'entreprise ?",
+            "answers": ["Guider les décisions et comportements", "Déterminer les horaires de travail", "Fixer les objectifs financiers", "Gérer les ressources matérielles"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les symboles et signes visibles qui reflètent la culture d'entreprise ?",
+            "answers": ["Culture visible", "Valeurs organisationnelles", "Normes de comportement", "Pratiques de travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus de mise en œuvre des valeurs culturelles dans les politiques et pratiques de l'entreprise ?",
+            "answers": ["Intégration culturelle", "Planification stratégique", "Développement organisationnel", "Gestion des ressources humaines"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la manière dont les croyances et les valeurs d'une entreprise influencent ses pratiques de gestion ?",
+            "answers": ["Culture d'entreprise", "Structure organisationnelle", "Planification des ressources", "Analyse des performances"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les actions entreprises pour renforcer la culture d'entreprise et améliorer l'engagement des employés ?",
+            "answers": ["Initiatives culturelles", "Programmes de formation", "Plan de développement professionnel", "Politiques de rémunération"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal objectif des séances de feedback régulières dans une culture d'entreprise ?",
+            "answers": ["Améliorer la performance et l'engagement des employés", "Réduire les coûts opérationnels", "Optimiser les processus de production", "Augmenter les heures de travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les pratiques et les comportements qui reflètent les valeurs d'une entreprise au quotidien ?",
+            "answers": ["Culture organisationnelle", "Normes de comportement", "Procédures opérationnelles", "Plan de travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel une entreprise adapte ses pratiques pour renforcer sa culture organisationnelle ?",
+            "answers": ["Développement culturel", "Planification stratégique", "Gestion des ressources humaines", "Amélioration des processus"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les valeurs et croyances qui sont partagées et vécues par tous les membres de l'organisation ?",
+            "answers": ["Culture d'entreprise", "Vision stratégique", "Plan de communication", "Structure organisationnelle"],
+            "correct": 0
+        }
+    ],
+
+    "science": [
+        {
+            "question": "Quelle est la planète la plus proche du Soleil ?",
+            "answers": ["Vénus", "Terre", "Mercure", "Mars"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est l'élément chimique dont le symbole est O ?",
+            "answers": ["Or", "Oxygène", "Osmium", "Oganesson"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est l'organe principal du système circulatoire chez les humains ?",
+            "answers": ["Poumons", "Foie", "Coeur", "Reins"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la force qui attire les objets vers la Terre ?",
+            "answers": ["Électricité", "Magnetisme", "Gravité", "Inertie"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le processus par lequel les plantes fabriquent leur nourriture ?",
+            "answers": ["Photosynthèse", "Respiration", "Digestion", "Fermentation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le plus grand océan de la Terre ?",
+            "answers": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+            "correct": 3
+        },
+        {
+            "question": "Quel scientifique est connu pour sa théorie de la relativité ?",
+            "answers": ["Isaac Newton", "Galilée", "Niels Bohr", "Albert Einstein"],
+            "correct": 3
+        },
+        {
+            "question": "Quelle est la cellule principale du système nerveux ?",
+            "answers": ["Neurone", "Globule rouge", "Hématie", "Lymphocyte"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+            "answers": ["Hydrogène", "Hélium", "Carbone", "Oxygène"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal gaz à effet de serre produit par les activités humaines ?",
+            "answers": ["Azote", "Méthane", "Dioxyde de carbone", "Oxygène"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est l'organe responsable de la digestion des aliments dans le corps humain ?",
+            "answers": ["Estomac", "Coeur", "Poumons", "Foie"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'élément chimique dont le symbole est Na ?",
+            "answers": ["Néon", "Sodium", "Nickel", "Nitrogène"],
+            "correct": 1
+        },
+        {
+            "question": "Quel phénomène explique les saisons sur Terre ?",
+            "answers": ["L'orbite elliptique", "La précession des équinoxes", "L'inclinaison de l'axe terrestre", "La rotation de la Terre"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est l'organe responsable de la production d'insuline ?",
+            "answers": ["Pancréas", "Foie", "Reins", "Estomac"],
+            "correct": 0
+        },
+        {
+            "question": "Quel type de cellule est responsable de la photosynthèse ?",
+            "answers": ["Cellule animale", "Cellule bactérienne", "Cellule végétale", "Cellule fongique"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+            "answers": ["3000 km/s", "30000 km/s", "300000 km/s", "3000000 km/s"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est l'élément chimique dont le symbole est Fe ?",
+            "answers": ["Fer", "Fluor", "Fermium", "Francium"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la principale source d'énergie pour la Terre ?",
+            "answers": ["Le Soleil", "La Lune", "Les océans", "Le vent"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le gaz noble le plus léger ?",
+            "answers": ["Hélium", "Argon", "Krypton", "Xénon"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la formule chimique de l'eau ?",
+            "answers": ["H2O", "CO2", "O2", "H2SO4"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la théorie selon laquelle les continents étaient autrefois réunis ?",
+            "answers": ["Théorie de l'évolution", "Théorie de la relativité", "Théorie de la dérive des continents", "Théorie des cordes"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le plus grand mammifère terrestre ?",
+            "answers": ["Éléphant", "Rhinocéros", "Hippopotame", "Girafe"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal composant des os humains ?",
+            "answers": ["Collagène", "Kératine", "Élastine", "Myoglobine"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'organe responsable de la production de la bile ?",
+            "answers": ["Foie", "Estomac", "Reins", "Intestin"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'organe responsable de la respiration chez les poissons ?",
+            "answers": ["Branchies", "Poumons", "Cloaque", "Coeur"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le plus grand organe du corps humain ?",
+            "answers": ["Peau", "Foie", "Estomac", "Poumons"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'élément chimique dont le symbole est Cl ?",
+            "answers": ["Chlore", "Calcium", "Carbone", "Cobalt"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la distance moyenne entre la Terre et le Soleil ?",
+            "answers": ["1500 millions de kilomètres", "150 millions de kilomètres", "15 millions de kilomètres", "15000 kilomètres"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est l'organe responsable de la régulation de la température corporelle ?",
+            "answers": ["Peau", "Foie", "Cerveau", "Coeur"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'élément chimique dont le symbole est K ?",
+            "answers": ["Potassium", "Phosphore", "Calcium", "Krypton"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'organe principal du système respiratoire ?",
+            "answers": ["Poumons", "Coeur", "Estomac", "Reins"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le processus par lequel les cellules se divisent pour se reproduire ?",
+            "answers": ["Mitoses", "Meiose", "Différenciation", "Apoptose"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le plus grand organe du système immunitaire ?",
+            "answers": ["Rate", "Thymus", "Amygdales", "Lymphe"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le plus petit os du corps humain ?",
+            "answers": ["Stapes (étrier)", "Fémur", "Humérus", "Clavicule"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'élément chimique dont le symbole est Hg ?",
+            "answers": ["Hydrogène", "Mercure", "Argon", "Plomb"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la principale fonction des globules rouges dans le sang ?",
+            "answers": ["Transport de l'oxygène", "Production d'anticorps", "Coagulation du sang", "Défense contre les infections"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les plantes perdent de l'eau ?",
+            "answers": ["Transpiration", "Absorption", "Photosynthèse", "Respiration"],
+            "correct": 0
+        }
+    ],
+
+    "math": [
+        {
+            "question": "Quel est le résultat de 7 × 8 ?",
+            "answers": ["56", "64", "54", "49"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le périmètre d'un carré dont le côté mesure 5 cm ?",
+            "answers": ["10 cm", "20 cm", "25 cm", "15 cm"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le nombre premier le plus petit ?",
+            "answers": ["1", "2", "3", "4"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la formule pour calculer l'aire d'un cercle ?",
+            "answers": ["πr²", "2πr", "πd", "πr"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le produit de 9 et 12 ?",
+            "answers": ["108", "99", "100", "110"],
+            "correct": 0
+        },
+        {
+            "question": "Combien de côtés a un pentagone ?",
+            "answers": ["4", "5", "6", "7"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la somme des angles d'un triangle ?",
+            "answers": ["180°", "360°", "90°", "270°"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 15 ÷ 3 ?",
+            "answers": ["5", "6", "4", "7"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la racine carrée de 81 ?",
+            "answers": ["9", "8", "7", "10"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le volume d'un cube dont chaque côté mesure 3 cm ?",
+            "answers": ["27 cm³", "9 cm³", "12 cm³", "36 cm³"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la valeur de π (pi) approximativement ?",
+            "answers": ["3.14", "2.71", "1.62", "4.67"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 2² + 3² ?",
+            "answers": ["13", "11", "10", "9"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une ligne qui touche un cercle en un seul point ?",
+            "answers": ["Tangente", "Secante", "Chord", "Arc"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la formule pour calculer la surface d'un rectangle ?",
+            "answers": ["Longueur × Largeur", "2 × (Longueur + Largeur)", "Longueur × Hauteur", "2 × Longueur × Largeur"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 5 × (3 + 2) ?",
+            "answers": ["25", "20", "15", "30"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la somme de 45 et 55 ?",
+            "answers": ["100", "90", "110", "95"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un angle inférieur à 90° ?",
+            "answers": ["Angle aigu", "Angle droit", "Angle obtus", "Angle plat"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la formule pour calculer le volume d'un cylindre ?",
+            "answers": ["πr²h", "2πrh", "πd²h", "πr²"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 9 ÷ (3 × 2) ?",
+            "answers": ["1.5", "3", "2", "4.5"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le produit de 6 et 7 ?",
+            "answers": ["42", "36", "48", "54"],
+            "correct": 0
+        },
+        {
+            "question": "Combien de faces a un cube ?",
+            "answers": ["6", "8", "12", "4"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la formule pour calculer l'aire d'un triangle ?",
+            "answers": ["1/2 × base × hauteur", "base × hauteur", "2 × base × hauteur", "base + hauteur"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le carré de 11 ?",
+            "answers": ["121", "110", "100", "144"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la valeur de 7! (7 factorielle) ?",
+            "answers": ["5040", "720", "504", "420"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un polygone avec 8 côtés ?",
+            "answers": ["Octogone", "Hexagone", "Heptagone", "Nonagone"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 12 - (4 × 2) ?",
+            "answers": ["4", "8", "6", "10"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un angle de 90° ?",
+            "answers": ["Angle droit", "Angle aigu", "Angle obtus", "Angle plat"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le volume d'un cône avec une hauteur de 10 cm et un rayon de 5 cm ?",
+            "answers": ["261.8 cm³", "314.2 cm³", "157.1 cm³", "523.6 cm³"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la valeur de 2³ ?",
+            "answers": ["8", "6", "9", "7"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un nombre qui ne peut être divisé que par 1 et lui-même ?",
+            "answers": ["Nombre premier", "Nombre composé", "Nombre entier", "Nombre rationnel"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le produit de 3, 4 et 5 ?",
+            "answers": ["60", "50", "45", "40"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la formule pour calculer l'aire d'un trapèze ?",
+            "answers": ["(Base1 + Base2) × Hauteur / 2", "Base × Hauteur", "Base × Hauteur × 2", "Base1 × Base2 / 2"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 20 ÷ 4 + 3 ?",
+            "answers": ["8", "7", "10", "12"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le terme pour un polygone avec 12 côtés ?",
+            "answers": ["Dodecagone", "Décagone", "Hexagone", "Octogone"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le résultat de 5² - 3² ?",
+            "answers": ["16", "10", "25", "7"],
+            "correct": 0
+        }
+    ],
+
+    "it": [
+        {
+            "question": "Quel est le langage de programmation principalement utilisé pour le développement web côté client ?",
+            "answers": ["Python", "Java", "JavaScript", "C++"],
+            "correct": 2
+        },
+        {
+            "question": "Que signifie l'acronyme HTTP ?",
+            "answers": ["Hypertext Transfer Protocol", "Hyperlink Transfer Protocol", "High Transfer Text Protocol", "Hypertext Text Protocol"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle d'un système d'exploitation ?",
+            "answers": ["Gérer le matériel et les logiciels", "Développer des applications", "Conserver des données", "Sécuriser les connexions réseau"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le langage de programmation principalement utilisé pour le développement d'applications Android ?",
+            "answers": ["Swift", "Kotlin", "JavaScript", "Ruby"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le protocole utilisé pour envoyer des courriels ?",
+            "answers": ["SMTP", "FTP", "HTTP", "IMAP"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est l'extension de fichier typique pour un fichier texte brut ?",
+            "answers": [".txt", ".doc", ".pdf", ".xls"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle principal d'un antivirus ?",
+            "answers": ["Protéger contre les logiciels malveillants", "Accélérer les performances du PC", "Optimiser la gestion des fichiers", "Régler les paramètres du réseau"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'outil de gestion de versions le plus utilisé dans le développement logiciel ?",
+            "answers": ["Git", "SVN", "Mercurial", "CVS"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'acronyme pour le langage de programmation utilisé pour le développement web côté serveur ?",
+            "answers": ["PHP", "HTML", "CSS", "SQL"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le composant principal d'un ordinateur qui exécute les instructions des programmes ?",
+            "answers": ["Processeur", "Mémoire vive", "Disque dur", "Carte graphique"],
+            "correct": 0
+        },
+        {
+            "question": "Quel système de gestion de bases de données est le plus utilisé ?",
+            "answers": ["MySQL", "PostgreSQL", "SQLite", "MongoDB"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une erreur dans le code source d'un programme ?",
+            "answers": ["Bug", "Virus", "Patch", "Feature"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le format d'image le plus utilisé pour les photographies numériques ?",
+            "answers": [".jpg", ".gif", ".png", ".bmp"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le protocole de transfert de fichiers le plus couramment utilisé sur Internet ?",
+            "answers": ["FTP", "HTTP", "SMTP", "IMAP"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'acronyme pour le langage de programmation utilisé pour le développement d'applications iOS ?",
+            "answers": ["Swift", "Kotlin", "JavaScript", "Python"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un réseau de plusieurs ordinateurs connectés entre eux ?",
+            "answers": ["Réseau", "Serveur", "Base de données", "Système"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle d'un pare-feu (firewall) dans un réseau informatique ?",
+            "answers": ["Filtrer le trafic réseau", "Stocker des données", "Analyser le code", "Optimiser la vitesse du réseau"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le format de fichier pour une vidéo de haute qualité en streaming ?",
+            "answers": [".mp4", ".mp3", ".avi", ".mov"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la capacité d'un système à gérer plusieurs tâches en même temps ?",
+            "answers": ["Multitâche", "Monotâche", "Hyperthreading", "Virtualisation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le langage utilisé pour créer des pages web ?",
+            "answers": ["HTML", "Python", "Java", "C#"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle d'un algorithme dans un programme informatique ?",
+            "answers": ["Définir une série d'instructions pour résoudre un problème", "Gérer les entrées utilisateur", "Exécuter le code source", "Stocker des données"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est l'acronyme pour une interface utilisateur graphique ?",
+            "answers": ["GUI", "API", "IDE", "CLI"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le stockage de données dans un ordinateur à long terme ?",
+            "answers": ["Mémoire de masse", "Mémoire vive", "Cache", "Registre"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le langage de programmation qui a été développé par Microsoft et est souvent utilisé pour les applications Windows ?",
+            "answers": ["C#", "Java", "Swift", "Ruby"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le format de fichier utilisé pour les documents Word ?",
+            "answers": [".docx", ".pdf", ".txt", ".xlsx"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'architecture de réseau qui permet aux périphériques de se connecter directement sans passer par un serveur central ?",
+            "answers": ["Réseau peer-to-peer", "Réseau client-serveur", "Réseau local", "Réseau étendu"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'ajout de nouvelles fonctionnalités à un logiciel existant ?",
+            "answers": ["Mise à jour", "Installation", "Déploiement", "Correction de bogue"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle principal d'un compilateur ?",
+            "answers": ["Convertir le code source en code machine", "Exécuter le code directement", "Gérer la mémoire", "Debugger le code"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une interface qui permet à différents logiciels de communiquer entre eux ?",
+            "answers": ["API", "GUI", "CLI", "IDE"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le système de gestion de contenu le plus utilisé pour créer des sites web ?",
+            "answers": ["WordPress", "Joomla", "Drupal", "Magento"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du système de fichiers utilisé par Windows ?",
+            "answers": ["NTFS", "FAT32", "EXT4", "HFS+"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une copie de sauvegarde de données ?",
+            "answers": ["Sauvegarde", "Archivage", "Compression", "Cryptage"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'outil utilisé pour déboguer le code source dans un environnement de développement intégré (IDE) ?",
+            "answers": ["Débogueur", "Compilateur", "Éditeur de texte", "Gestionnaire de version"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la mémoire utilisée pour stocker temporairement des données pendant l'exécution d'un programme ?",
+            "answers": ["RAM", "ROM", "Disque dur", "Cache"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une erreur de codage dans un programme informatique ?",
+            "answers": ["Bug", "Virus", "Patch", "Trojan"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le format de fichier couramment utilisé pour les images vectorielles ?",
+            "answers": [".svg", ".jpg", ".png", ".gif"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un système de gestion de bases de données qui utilise des tables pour organiser les données ?",
+            "answers": ["SGBD relationnel", "SGBD NoSQL", "SGBD objet", "SGBD hiérarchique"],
+            "correct": 0
+        }
+    ],
+
+    "biology": [
+        {
+            "question": "Quel est le principal organe de la respiration chez les mammifères ?",
+            "answers": ["Poumons", "Coeur", "Foie", "Reins"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le processus par lequel les plantes produisent de l'énergie ?",
+            "answers": ["Photosynthèse", "Respiration", "Fermentation", "Digestion"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la fonction principale des globules rouges dans le sang ?",
+            "answers": ["Transport de l'oxygène", "Combat des infections", "Coagulation du sang", "Transport des nutriments"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la structure qui entoure la cellule et contrôle les échanges avec l'extérieur ?",
+            "answers": ["Membrane cellulaire", "Noyau", "Cytoplasme", "Ribosome"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle partie de la cellule contient l'ADN ?",
+            "answers": ["Noyau", "Mitochondrie", "Réticulum endoplasmique", "Appareil de Golgi"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un groupe d'organismes de la même espèce vivant dans une même région ?",
+            "answers": ["Population", "Communauté", "Écosystème", "Biotope"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des mitochondries dans la cellule ?",
+            "answers": ["Production d'énergie", "Synthèse des protéines", "Dégradation des lipides", "Stockage du calcium"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la molécule qui stocke l'énergie dans les cellules ?",
+            "answers": ["ATP", "ADN", "ARN", "Glucose"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'étude des organismes vivants et de leurs interactions avec l'environnement ?",
+            "answers": ["Écologie", "Génétique", "Physiologie", "Anatomie"],
+            "correct": 0
+        },
+        {
+            "question": "Quel organe du système digestif est responsable de l'absorption des nutriments ?",
+            "answers": ["Intestin grêle", "Estomac", "Foie", "Pancréas"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du pigment qui donne sa couleur aux feuilles des plantes ?",
+            "answers": ["Chlorophylle", "Carotène", "Anthocyanine", "Xanthophylle"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des ribosomes dans la cellule ?",
+            "answers": ["Synthèse des protéines", "Réparation de l'ADN", "Production d'énergie", "Transport des nutriments"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les cellules se divisent pour produire deux cellules filles identiques ?",
+            "answers": ["Mitose", "Méiose", "Fission binaire", "Cytocinèse"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des enzymes dans le métabolisme ?",
+            "answers": ["Accélérer les réactions chimiques", "Stocker l'énergie", "Transporter les nutriments", "Décomposer les déchets"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la principale fonction des leucocytes (globules blancs) ?",
+            "answers": ["Défense contre les infections", "Transport de l'oxygène", "Coagulation du sang", "Digestion des nutriments"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la cellule reproductrice masculine chez les animaux ?",
+            "answers": ["Spermatozoïde", "Ovule", "Embryon", "Gamète"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle structure dans la cellule est responsable de la production d'ATP ?",
+            "answers": ["Mitochondrie", "Ribosome", "Noyau", "Appareil de Golgi"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel une cellule se divise pour former des cellules reproductrices ?",
+            "answers": ["Méiose", "Mitose", "Fission binaire", "Cytocinèse"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des chloroplastes dans les cellules végétales ?",
+            "answers": ["Photosynthèse", "Respiration", "Digestion", "Reproduction"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une mutation génétique qui se produit dans une seule cellule ?",
+            "answers": ["Mutation somatique", "Mutation germinale", "Variation génétique", "Polymorphisme"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'enveloppe extérieure qui protège le noyau cellulaire ?",
+            "answers": ["Membrane nucléaire", "Membrane cellulaire", "Paroi cellulaire", "Réticulum endoplasmique"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les organismes vivants produisent de la descendance ?",
+            "answers": ["Reproduction", "Croissance", "Nutrition", "Respiration"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la fonction principale du système immunitaire ?",
+            "answers": ["Protéger l'organisme contre les agents pathogènes", "Réguler la température corporelle", "Digérer les aliments", "Transporter les nutriments"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les cellules utilisent l'oxygène pour produire de l'énergie ?",
+            "answers": ["Respiration cellulaire", "Photosynthèse", "Fermentation", "Digestion"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'organe qui produit les hormones chez les humains ?",
+            "answers": ["Glande", "Rein", "Foie", "Estomac"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle partie du cerveau est responsable des fonctions motrices ?",
+            "answers": ["Cortex moteur", "Cortex visuel", "Cortex auditif", "Hippocampe"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les cellules éliminent les déchets ?",
+            "answers": ["Exocytose", "Endocytose", "Phagocytose", "Osmose"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la molécule qui porte l'information génétique dans les cellules ?",
+            "answers": ["ADN", "ARN", "ATP", "Protéine"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle de la paroi cellulaire chez les plantes ?",
+            "answers": ["Fournir une structure et un soutien", "Réguler les échanges cellulaires", "Produire de l'énergie", "Stocker des nutriments"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du phénomène par lequel une cellule se divise en deux cellules filles identiques ?",
+            "answers": ["Mitose", "Méiose", "Fission binaire", "Reproduction"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des lysosomes dans la cellule ?",
+            "answers": ["Décomposer les déchets et les organites endommagés", "Stocker l'énergie", "Transporter les nutriments", "Synthétiser les protéines"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les plantes absorbent l'eau et les minéraux du sol ?",
+            "answers": ["Absorption racinaire", "Photosynthèse", "Transpiration", "Respiration"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'hormone produite par le pancréas qui régule le taux de sucre dans le sang ?",
+            "answers": ["Insuline", "Glucagon", "Adrénaline", "Thyroxine"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la structure qui permet le passage des substances entre le noyau et le cytoplasme ?",
+            "answers": ["Pores nucléaires", "Membrane cellulaire", "Paroi cellulaire", "Réticulum endoplasmique"],
+            "correct": 0
+        }
+    ],
+
+    "accounting": [
+        {
+            "question": "Quel est le principal objectif de la comptabilité ?",
+            "answers": ["Fournir des informations financières fiables", "Préparer des prévisions de ventes", "Évaluer les performances du marketing", "Gérer les ressources humaines"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le document comptable qui résume les opérations financières d'une entreprise pendant une période donnée ?",
+            "answers": ["Le bilan", "Le compte de résultat", "Le grand livre", "Le livre journal"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le terme utilisé pour décrire les dépenses engagées pour l'achat d'actifs durables ?",
+            "answers": ["Investissements", "Charges", "Recettes", "Amortissements"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principe comptable qui exige que les transactions soient enregistrées au moment où elles se produisent ?",
+            "answers": ["Principe de la comptabilité d'exercice", "Principe de la comptabilité de caisse", "Principe de continuité d'exploitation", "Principe de prudence"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du compte qui enregistre les ventes réalisées par une entreprise ?",
+            "answers": ["Compte de ventes", "Compte de produits", "Compte de charges", "Compte de produits financiers"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'écriture comptable qui permet de transférer des montants d'un compte à un autre ?",
+            "answers": ["Écriture de journal", "Écriture de transfert", "Écriture d'ajustement", "Écriture de régularisation"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le terme utilisé pour les sommes que l'entreprise doit à ses créanciers ?",
+            "answers": ["Dettes", "Actifs", "Produits", "Capitaux propres"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du rapport financier qui présente la situation financière d'une entreprise à un moment donné ?",
+            "answers": ["Bilan", "Compte de résultat", "Tableau des flux de trésorerie", "État des variations des capitaux propres"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principe comptable qui stipule que les revenus doivent être reconnus lorsqu'ils sont gagnés, même s'ils ne sont pas encore reçus ?",
+            "answers": ["Principe de l'accumulation", "Principe de réalisation", "Principe de continuité", "Principe de régularité"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le nom du document qui liste toutes les transactions financières d'une entreprise chronologiquement ?",
+            "answers": ["Livre journal", "Grand livre", "Bilan", "Compte de résultat"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les coûts qui varient en fonction du volume de production ?",
+            "answers": ["Coûts variables", "Coûts fixes", "Coûts totaux", "Coûts directs"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du compte qui enregistre les paiements effectués pour les services reçus ?",
+            "answers": ["Compte de charges", "Compte de produits", "Compte d'actifs", "Compte de passifs"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'ajustement comptable effectué pour refléter la dépréciation d'un actif ?",
+            "answers": ["Amortissement", "Dépréciation", "Provision", "Réévaluation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la méthode utilisée pour allouer les coûts des actifs fixes sur leur durée de vie utile ?",
+            "answers": ["Amortissement", "Dépréciation", "Provision pour créances douteuses", "Capitalisation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du rapport financier qui montre les sources et les utilisations de la trésorerie d'une entreprise ?",
+            "answers": ["Tableau des flux de trésorerie", "Compte de résultat", "Bilan", "État des capitaux propres"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les montants que l'entreprise reçoit de ses clients pour des biens ou services avant leur livraison ?",
+            "answers": ["Produits constatés d'avance", "Charges à payer", "Dettes", "Acomptes reçus"],
+            "correct": 3
+        },
+        {
+            "question": "Quel est le terme pour l'enregistrement d'une dépense qui est reportée à une période future ?",
+            "answers": ["Charges constatées d'avance", "Produits constatés d'avance", "Amortissement", "Provision"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la méthode comptable qui consiste à évaluer les stocks au coût le plus bas entre le coût d'achat et la valeur de réalisation ?",
+            "answers": ["Méthode du coût le plus bas", "Méthode FIFO", "Méthode LIFO", "Méthode du coût moyen"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'augmentation des capitaux propres due à la réalisation de bénéfices par l'entreprise ?",
+            "answers": ["Résultat net", "Dividendes", "Amortissement", "Provision"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'écriture comptable qui permet de corriger une erreur dans les comptes ?",
+            "answers": ["Écriture de correction", "Écriture de régularisation", "Écriture d'ajustement", "Écriture de transfert"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les revenus que l'entreprise doit encore percevoir ?",
+            "answers": ["Produits à recevoir", "Charges à payer", "Acomptes reçus", "Produits constatés d'avance"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du compte qui enregistre les paiements effectués pour des services ou des biens qui ont été consommés ?",
+            "answers": ["Compte de charges", "Compte de produits", "Compte d'actifs", "Compte de passifs"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les sommes dues par une entreprise à ses fournisseurs pour des achats effectués ?",
+            "answers": ["Dettes fournisseurs", "Créances", "Produits à recevoir", "Acomptes reçus"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du document comptable qui présente la performance financière d'une entreprise sur une période donnée ?",
+            "answers": ["Compte de résultat", "Bilan", "Tableau des flux de trésorerie", "État des variations des capitaux propres"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'ajustement comptable effectué pour refléter une diminution de valeur d'un actif ?",
+            "answers": ["Dépréciation", "Amortissement", "Provision", "Capitalisation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus de comptabilisation des transactions financières dans les livres comptables ?",
+            "answers": ["Enregistrement", "Vérification", "Analyse", "Évaluation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la différence entre les actifs et les passifs d'une entreprise ?",
+            "answers": ["Capitaux propres", "Bénéfice net", "Charge d'amortissement", "Provision pour créances douteuses"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du document qui présente la situation financière d'une entreprise à une date précise en détaillant ses actifs, passifs et capitaux propres ?",
+            "answers": ["Bilan", "Compte de résultat", "Tableau des flux de trésorerie", "État des variations des capitaux propres"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les ajustements comptables effectués pour les revenus ou les charges qui sont dus ou à recevoir mais non encore comptabilisés ?",
+            "answers": ["Produits et charges à échoir", "Produits constatés d'avance", "Charges constatées d'avance", "Amortissements"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de la méthode de comptabilisation qui consiste à inscrire les produits et les charges au moment où ils sont réalisés ou engagés ?",
+            "answers": ["Méthode d'exercice", "Méthode de caisse", "Méthode de capitalisation", "Méthode de réévaluation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les coûts directs associés à la production d'un bien ou service ?",
+            "answers": ["Coûts variables", "Coûts fixes", "Coûts de production", "Coûts indirects"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom du compte qui enregistre les revenus générés par les ventes de produits ou services ?",
+            "answers": ["Compte de produits", "Compte de charges", "Compte d'actifs", "Compte de passifs"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les montants dus par l'entreprise à ses employés pour des salaires ou des primes non encore versés ?",
+            "answers": ["Charges à payer", "Dettes fournisseurs", "Produits à recevoir", "Acomptes reçus"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus par lequel les valeurs des actifs sont réparties sur plusieurs périodes comptables ?",
+            "answers": ["Amortissement", "Capitalisation", "Provision", "Évaluation"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les comptes qui enregistrent les transactions financières effectuées par une entreprise ?",
+            "answers": ["Comptes de bilan", "Comptes de résultat", "Comptes de passifs", "Comptes de produits"],
+            "correct": 0
+        }
+    ],
+
+    "projectManagement": [
+        {
+            "question": "Quel est le document qui décrit les objectifs, les tâches et les ressources nécessaires à un projet ?",
+            "answers": ["Plan de projet", "Charte de projet", "Cahier des charges", "Rapport de projet"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle méthode de gestion de projet se concentre sur la livraison continue et l'amélioration itérative ?",
+            "answers": ["Méthode Agile", "Méthode Waterfall", "Méthode Scrum", "Méthode Prince2"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme utilisé pour décrire les tâches qui dépendent de l'achèvement d'autres tâches dans un projet ?",
+            "answers": ["Dépendances", "Livrables", "Objectifs", "Jalons"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus de gestion qui consiste à identifier, évaluer et planifier les risques d'un projet ?",
+            "answers": ["Gestion des risques", "Gestion des ressources", "Gestion des parties prenantes", "Gestion des coûts"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour un ensemble de tâches dans un projet qui doivent être complétées avant le début d'une autre tâche ?",
+            "answers": ["Chemin critique", "Jalon", "Phase", "Échéancier"],
+            "correct": 0
+        },
+        {
+            "question": "Quel document est utilisé pour suivre l'avancement d'un projet et comparer les performances par rapport au plan ?",
+            "answers": ["Tableau de bord", "Plan de projet", "Charte de projet", "Budget"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une période où les ressources et les efforts doivent être coordonnés pour atteindre un objectif spécifique dans un projet ?",
+            "answers": ["Phase", "Événement", "Activité", "Jalon"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle principal du chef de projet ?",
+            "answers": ["Coordonner les ressources et les tâches", "Effectuer des analyses financières", "Concevoir le produit", "Commercialiser le projet"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les personnes ou groupes qui ont un intérêt dans le projet et qui peuvent influencer ou être influencés par celui-ci ?",
+            "answers": ["Parties prenantes", "Clients", "Fournisseurs", "Équipes"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle méthode de gestion de projet utilise des sprints pour travailler de manière itérative ?",
+            "answers": ["Scrum", "Kanban", "Waterfall", "Prince2"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'évaluation et la validation des résultats d'un projet par rapport aux objectifs définis ?",
+            "answers": ["Contrôle de qualité", "Gestion des risques", "Gestion des ressources", "Analyse de la rentabilité"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus de gestion qui consiste à estimer, allouer et suivre les coûts du projet ?",
+            "answers": ["Gestion des coûts", "Gestion des risques", "Gestion de la qualité", "Gestion des ressources"],
+            "correct": 0
+        },
+        {
+            "question": "Quel document définit les besoins du client et les attentes pour un projet ?",
+            "answers": ["Cahier des charges", "Charte de projet", "Plan de projet", "Rapport de projet"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la séquence des tâches qui détermine la durée totale du projet ?",
+            "answers": ["Chemin critique", "Plan de travail", "Calendrier", "Échéancier"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle des parties prenantes dans un projet ?",
+            "answers": ["Influencer et être influencé par le projet", "Gérer les tâches quotidiennes", "Concevoir le produit", "Développer le plan de projet"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le processus d'ajustement des plans du projet en fonction des changements et des évolutions ?",
+            "answers": ["Gestion des changements", "Gestion des risques", "Gestion de la qualité", "Gestion des ressources"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du document qui décrit les critères d'acceptation pour les livrables d'un projet ?",
+            "answers": ["Définition des critères d'acceptation", "Plan de projet", "Charte de projet", "Cahier des charges"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'analyse des résultats du projet pour déterminer si les objectifs ont été atteints ?",
+            "answers": ["Évaluation post-projet", "Analyse de rentabilité", "Contrôle de qualité", "Analyse des risques"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle de la gestion de la qualité dans un projet ?",
+            "answers": ["Assurer que les livrables répondent aux exigences et standards", "Gérer les coûts du projet", "Planifier les ressources", "Suivre les délais"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les ressources, le temps et les coûts associés aux tâches d'un projet ?",
+            "answers": ["Ressources du projet", "Budget", "Planification", "Charges de travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le processus d'identification et de gestion des obstacles qui pourraient affecter le projet ?",
+            "answers": ["Gestion des risques", "Gestion des changements", "Gestion des ressources", "Gestion des coûts"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le processus de décomposition des tâches du projet en éléments plus petits et plus gérables ?",
+            "answers": ["Décomposition du travail", "Planification", "Analyse des tâches", "Gestion des ressources"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du document qui décrit les objectifs, les tâches et les responsabilités dans un projet ?",
+            "answers": ["Plan de travail", "Charte de projet", "Cahier des charges", "Plan de projet"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour une évaluation régulière de l'avancement d'un projet par rapport aux objectifs fixés ?",
+            "answers": ["Suivi de projet", "Planification", "Évaluation des risques", "Gestion des ressources"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la gestion des impacts des modifications sur le projet ?",
+            "answers": ["Gestion des changements", "Gestion des risques", "Gestion des ressources", "Gestion des coûts"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le processus de communication et de coordination avec les parties prenantes d'un projet ?",
+            "answers": ["Gestion des parties prenantes", "Gestion de la qualité", "Gestion des risques", "Gestion des coûts"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'outil utilisé pour planifier les tâches et les ressources dans un projet ?",
+            "answers": ["Diagramme de Gantt", "Analyse SWOT", "Tableau Kanban", "Échelle de temps"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les dépenses prévues et non prévues dans un projet ?",
+            "answers": ["Budget", "Coûts", "Charges", "Investissements"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour la période pendant laquelle les tâches du projet doivent être achevées pour respecter les délais ?",
+            "answers": ["Calendrier", "Échéancier", "Plan de travail", "Planification"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus de gestion qui consiste à définir et documenter les objectifs et les exigences du projet ?",
+            "answers": ["Définition du projet", "Planification", "Évaluation", "Analyse des besoins"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour le document qui formalise l'accord entre les parties prenantes sur les objectifs du projet ?",
+            "answers": ["Charte de projet", "Plan de projet", "Cahier des charges", "Rapport de projet"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour l'évaluation des tâches et des ressources nécessaires pour accomplir un projet dans le respect des contraintes ?",
+            "answers": ["Planification de projet", "Gestion des ressources", "Évaluation des risques", "Analyse de rentabilité"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les délais dans lesquels les différentes tâches du projet doivent être réalisées ?",
+            "answers": ["Échéancier", "Calendrier", "Plan de travail", "Objectifs"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le rôle de l'évaluation des performances dans un projet ?",
+            "answers": ["Comparer les résultats réels aux objectifs", "Gérer les coûts", "Planifier les ressources", "Développer le produit"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le terme pour les actions entreprises pour résoudre les problèmes et les obstacles rencontrés pendant le projet ?",
+            "answers": ["Gestion des problèmes", "Gestion des changements", "Gestion des risques", "Planification"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du processus de gestion qui consiste à assurer la qualité des livrables d'un projet ?",
+            "answers": ["Gestion de la qualité", "Gestion des risques", "Gestion des ressources", "Gestion des coûts"],
+            "correct": 0
+        }
+    ],
+
+    "en": [
+        {
+            "question": "Comment dit-on 'chien' en anglais ?",
+            "answers": ["Cat", "Dog", "Horse", "Mouse"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le pluriel de 'child' en anglais ?",
+            "answers": ["Childs", "Children", "Childes", "Childies"],
+            "correct": 1
+        },
+        {
+            "question": "Comment traduit-on 'Je vais au travail' en anglais ?",
+            "answers": ["I am going to work", "I go to work", "I going to work", "I am go to work"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la traduction correcte de 'livre' en anglais ?",
+            "answers": ["Book", "Library", "Leaf", "Page"],
+            "correct": 0
+        },
+        {
+            "question": "Comment dit-on 'avoir faim' en anglais ?",
+            "answers": ["To have food", "To be hungry", "To be food", "To have hunger"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le bon mot pour 'rapidement' en anglais ?",
+            "answers": ["Quick", "Quickly", "Fastly", "Speed"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la traduction de 'Hier, j'ai vu un film' en anglais ?",
+            "answers": ["Yesterday, I have seen a movie", "Yesterday, I saw a movie", "Yesterday, I see a movie", "Yesterday, I was seeing a movie"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'école' en anglais ?",
+            "answers": ["Class", "School", "University", "Library"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la traduction correcte de 'Il pleut' en anglais ?",
+            "answers": ["It rain", "It is rain", "It is raining", "It rains"],
+            "correct": 2
+        },
+        {
+            "question": "Comment traduit-on 'J'aime lire' en anglais ?",
+            "answers": ["I like reading", "I likes read", "I like read", "I liking to read"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le bon mot pour 'nourriture' en anglais ?",
+            "answers": ["Drink", "Food", "Meal", "Cook"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'matin' en anglais ?",
+            "answers": ["Morning", "Evening", "Afternoon", "Night"],
+            "correct": 0
+        },
+        {
+            "question": "Comment dit-on 'table' en anglais ?",
+            "answers": ["Chair", "Desk", "Table", "Furniture"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la traduction correcte de 'Nous parlons anglais' en anglais ?",
+            "answers": ["We are talking English", "We speak English", "We speaks English", "We are speak English"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'voiture' en anglais ?",
+            "answers": ["Bus", "Bicycle", "Truck", "Car"],
+            "correct": 3
+        },
+        {
+            "question": "Comment traduit-on 'Elle est médecin' en anglais ?",
+            "answers": ["She is a medicine", "She is doctor", "She is a doctor", "She is the doctor"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le bon mot pour 'chaud' en anglais ?",
+            "answers": ["Cold", "Hot", "Warm", "Cool"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'temps' (météo) en anglais ?",
+            "answers": ["Weather", "Time", "Season", "Climate"],
+            "correct": 0
+        },
+        {
+            "question": "Comment dit-on 'ordinateur' en anglais ?",
+            "answers": ["Calculator", "Television", "Computer", "Laptop"],
+            "correct": 2
+        },
+        {
+            "question": "Comment traduit-on 'J'ai besoin d'aide' en anglais ?",
+            "answers": ["I am needing help", "I need help", "I needs help", "I have need help"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le bon mot pour 'maison' en anglais ?",
+            "answers": ["Apartment", "Home", "Building", "Room"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'pomme' en anglais ?",
+            "answers": ["Apple", "Banana", "Orange", "Grape"],
+            "correct": 0
+        },
+        {
+            "question": "Comment traduit-on 'Je ne comprends pas' en anglais ?",
+            "answers": ["I do not understanding", "I do not understand", "I no understand", "I not understand"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'ville' en anglais ?",
+            "answers": ["Country", "Village", "Town", "City"],
+            "correct": 3
+        },
+        {
+            "question": "Comment traduit-on 'Il est en retard' en anglais ?",
+            "answers": ["He is late", "He is last", "He is lately", "He is lateness"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le bon mot pour 'chaise' en anglais ?",
+            "answers": ["Desk", "Chair", "Seat", "Couch"],
+            "correct": 1
+        },
+        {
+            "question": "Comment dit-on 'merci' en anglais ?",
+            "answers": ["Thanks", "Please", "Sorry", "Welcome"],
+            "correct": 0
+        },
+        {
+            "question": "Comment traduit-on 'Je suis fatigué' en anglais ?",
+            "answers": ["I am tired", "I have tired", "I am tiring", "I tired"],
+            "correct": 0
+        },
+        {
+            "question": "Comment dit-on 'avion' en anglais ?",
+            "answers": ["Boat", "Train", "Car", "Plane"],
+            "correct": 3
+        },
+        {
+            "question": "Comment dit-on 'hiver' en anglais ?",
+            "answers": ["Summer", "Spring", "Winter", "Fall"],
+            "correct": 2
+        }
+    ],
+
+    "fr": [
+        {
+            "question": "Quel est le synonyme de 'joyeux' ?",
+            "answers": ["Triste", "Content", "Colérique", "Pessimiste"],
+            "correct": 1
+        },
+        {
+            "question": "Comment s'appelle la figure de style qui consiste à exagérer une idée ?",
+            "answers": ["Hyperbole", "Métaphore", "Antithèse", "Allégorie"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le contraire de 'paresseux' ?",
+            "answers": ["Diligent", "Fatigué", "Lent", "Indifférent"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la bonne conjugaison du verbe 'manger' à la troisième personne du pluriel au présent ?",
+            "answers": ["Ils mangent", "Ils manges", "Ils mange", "Ils mangentent"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la nature du mot 'rapidement' ?",
+            "answers": ["Nom", "Adjectif", "Adverbe", "Verbe"],
+            "correct": 2
+        },
+        {
+            "question": "Quel mot correspond à la définition suivante : 'Se dit d'une personne qui agit avec courage' ?",
+            "answers": ["Peureux", "Lâche", "Vaillant", "Malhonnête"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le genre du mot 'amour' en français ?",
+            "answers": ["Féminin", "Masculin", "Neutre", "Indéfini"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la terminaison correcte du verbe 'finir' à la première personne du singulier au présent ?",
+            "answers": ["-ais", "-it", "-ons", "-is"],
+            "correct": 3
+        },
+        {
+            "question": "Quel est le pluriel du mot 'cheval' ?",
+            "answers": ["Chevals", "Chevaux", "Chevales", "Cheval"],
+            "correct": 1
+        },
+        {
+            "question": "Comment écrit-on correctement 'Nous devons partir' ?",
+            "answers": ["Nous devons partis", "Nous devons partons", "Nous devons partir", "Nous devons partirs"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la bonne préposition à utiliser : 'Il va _______ Paris' ?",
+            "answers": ["à", "de", "dans", "vers"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le participe passé du verbe 'prendre' ?",
+            "answers": ["Prendre", "Prend", "Pris", "Prenu"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la fonction de 'à Marie' dans la phrase : 'Je parle à Marie' ?",
+            "answers": ["Sujet", "Complément d'objet direct", "Complément d'objet indirect", "Attribut du sujet"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le féminin de 'acteur' ?",
+            "answers": ["Actrice", "Acteuse", "Acter", "Actoire"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la bonne terminaison pour 'elles' avec le verbe 'aimer' au présent ?",
+            "answers": ["-ons", "-ez", "-ent", "-e"],
+            "correct": 2
+        },
+        {
+            "question": "Comment écrit-on correctement 'Ils ont répondu' ?",
+            "answers": ["Ils ont répondus", "Ils ont répondu", "Ils ont répondue", "Ils ont répond"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la forme correcte du conditionnel présent pour 'Je ______ (vouloir)' ?",
+            "answers": ["voudrai", "voudrait", "voudrais", "voudraient"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le pluriel de 'travail' ?",
+            "answers": ["Travaux", "Travails", "Travauxs", "Travail"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la bonne conjugaison du verbe 'être' à la première personne du singulier au passé composé ?",
+            "answers": ["J'étais", "Je fus", "J'ai été", "Je suis été"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le verbe correspondant à l'action de 'construire un pont' ?",
+            "answers": ["Fabriquer", "Peindre", "Édifier", "Dessiner"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le pluriel de 'bijou' ?",
+            "answers": ["Bijoux", "Bijous", "Bijousx", "Bijou"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la bonne préposition à utiliser : 'Elle parle _______ son ami' ?",
+            "answers": ["de", "avec", "en", "par"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la forme correcte de 'plus bon' en français ?",
+            "answers": ["Plus bon", "Plus bien", "Meilleur", "Bon plus"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est l'antonyme de 'facile' ?",
+            "answers": ["Compliqué", "Difficile", "Impossible", "Rude"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le mot qui signifie 'se sentir supérieur aux autres' ?",
+            "answers": ["Humilité", "Arrogance", "Timidité", "Modestie"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est l'infinitif du verbe 'je ferai' ?",
+            "answers": ["Faire", "Ferre", "Ferrer", "Fère"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la nature du mot 'magnifique' ?",
+            "answers": ["Nom", "Verbe", "Adjectif", "Adverbe"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la bonne terminaison pour 'nous' avec le verbe 'partir' au présent ?",
+            "answers": ["-ons", "-ez", "-ent", "-ons"],
+            "correct": 3
+        },
+        {
+            "question": "Quel est le pronom relatif qui complète la phrase : 'Le livre _____ je parle est intéressant' ?",
+            "answers": ["qui", "que", "dont", "où"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le verbe correspondant à l'action de 'prendre un repas' ?",
+            "answers": ["Manger", "Boire", "Cuisiner", "Servir"],
+            "correct": 0
+        }
+
+    ],
+
+    "bj": [
+        {
+            "question": "Quelle est la capitale économique du Bénin ?",
+            "answers": ["Cotonou", "Porto-Novo", "Abomey", "Parakou"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la langue officielle du Bénin ?",
+            "answers": ["Fon", "Français", "Yoruba", "Goun"],
+            "correct": 1
+        },
+        {
+            "question": "Le Bénin est situé dans quelle région de l'Afrique ?",
+            "answers": ["Afrique du Nord", "Afrique Centrale", "Afrique de l'Ouest", "Afrique de l'Est"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le fleuve principal du Bénin ?",
+            "answers": ["Fleuve Niger", "Fleuve Mono", "Fleuve Ouémé", "Fleuve Volta"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom du parc national situé au nord du Bénin, connu pour sa biodiversité ?",
+            "answers": ["Parc National du W", "Parc National de la Pendjari", "Parc National de l'Alibori", "Parc National de la Boucle du Baoulé"],
+            "correct": 1
+        },
+        {
+            "question": "Qui était le premier président du Bénin après l'indépendance ?",
+            "answers": ["Mathieu Kérékou", "Thomas Boni Yayi", "Nicéphore Soglo", "Hubert Maga"],
+            "correct": 3
+        },
+        {
+            "question": "En quelle année le Bénin a-t-il obtenu son indépendance ?",
+            "answers": ["1958", "1960", "1963", "1965"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le nom de l'ancien royaume situé au sud du Bénin, célèbre pour ses statues et ses bas-reliefs ?",
+            "answers": ["Royaume du Dahomey", "Royaume de Porto-Novo", "Royaume de Nikki", "Royaume d'Oyo"],
+            "correct": 0
+        },
+        {
+            "question": "Quelle est la principale religion traditionnelle au Bénin ?",
+            "answers": ["Christianisme", "Islam", "Vaudou", "Bouddhisme"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle ville est connue pour son festival annuel de vaudou ?",
+            "answers": ["Abomey", "Ouidah", "Cotonou", "Parakou"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la monnaie officielle utilisée au Bénin ?",
+            "answers": ["Dollar béninois", "Naira", "Cedi", "Franc CFA"],
+            "correct": 3
+        },
+        {
+            "question": "Quel est le plus grand lac du Bénin ?",
+            "answers": ["Lac Aheme", "Lac Nokoué", "Lac Togo", "Lac Volta"],
+            "correct": 1
+        },
+        {
+            "question": "Quel célèbre centre historique au Bénin est classé au patrimoine mondial de l'UNESCO ?",
+            "answers": ["La ville de Porto-Novo", "Le Palais Royal d'Abomey", "La ville de Parakou", "Les Colonnes de Tchaourou"],
+            "correct": 1
+        },
+        {
+            "question": "Quel type de climat prédomine au Bénin ?",
+            "answers": ["Climat méditerranéen", "Climat tropical", "Climat désertique", "Climat continental"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la superficie approximative du Bénin ?",
+            "answers": ["44 000 km²", "65 000 km²", "112 000 km²", "85 000 km²"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom du port principal du Bénin ?",
+            "answers": ["Port de Lomé", "Port de Cotonou", "Port d'Abidjan", "Port de Porto-Novo"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le principal produit d'exportation du Bénin ?",
+            "answers": ["Café", "Coton", "Pétrole", "Or"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la durée du mandat présidentiel au Bénin ?",
+            "answers": ["3 ans", "5 ans", "7 ans", "10 ans"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle ville est le siège du parlement béninois ?",
+            "answers": ["Cotonou", "Porto-Novo", "Abomey", "Bohicon"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le plus haut sommet du Bénin ?",
+            "answers": ["Mont Agou", "Mont Sokbaro", "Mont Kilimandjaro", "Mont Cameroun"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle ville est réputée pour son artisanat de bronze ?",
+            "answers": ["Nikki", "Cotonou", "Porto-Novo", "Abomey"],
+            "correct": 3
+        },
+        {
+            "question": "Quelle est la principale ethnie du sud du Bénin ?",
+            "answers": ["Yoruba", "Fon", "Bariba", "Dendi"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est l'ancien nom du Bénin avant 1975 ?",
+            "answers": ["Côte d'Ivoire", "Haute-Volta", "Dahomey", "Nigeria"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom de la fête nationale célébrée le 1er août au Bénin ?",
+            "answers": ["Fête de l'indépendance", "Fête du travail", "Fête du vaudou", "Fête de la jeunesse"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le principal dialecte parlé à Cotonou ?",
+            "answers": ["Yoruba", "Fon", "Goun", "Dendi"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le rôle du Bénin dans la traite négrière ?",
+            "answers": ["Région d'exploitation minière", "Lieu de résistance", "Point de départ majeur des esclaves", "Centre d'accueil des esclaves libérés"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le symbole principal sur le drapeau du Bénin ?",
+            "answers": ["Une étoile", "Une bande verte", "Une bande rouge", "Un lion"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est l'instrument de musique traditionnel largement utilisé au Bénin ?",
+            "answers": ["Guitare", "Tambour", "Balafon", "Flûte"],
+            "correct": 1
+        },
+        {
+            "question": "Quel célèbre roi du Dahomey a étendu le royaume et résisté aux Européens ?",
+            "answers": ["Roi Ghézo", "Roi Agadja", "Roi Béhanzin", "Roi Houégbadja"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la principale attraction touristique située à Ouidah, liée à l'histoire de la traite négrière ?",
+            "answers": ["La Porte du Non-Retour", "Le Palais Royal d'Abomey", "Le marché Dantokpa", "Le Lac Nokoué"],
+            "correct": 0
+        }
+    ],
+
+    "sport": [
+        {
+            "question": "Quel sport est joué avec un ballon rond et 11 joueurs par équipe ?",
+            "answers": ["Basket-ball", "Football", "Rugby", "Handball"],
+            "correct": 1
+        },
+        {
+            "question": "Quel pays a remporté la Coupe du Monde de football 2018 ?",
+            "answers": ["Allemagne", "Brésil", "France", "Argentine"],
+            "correct": 2
+        },
+        {
+            "question": "Quelle est la durée d'un match de tennis en sets pour les grands tournois ?",
+            "answers": ["2 sets", "3 sets", "4 sets", "5 sets"],
+            "correct": 3
+        },
+        {
+            "question": "Quel sport utilise une balle et un filet et se joue sur un court ?",
+            "answers": ["Volley-ball", "Badminton", "Tennis", "Ping-pong"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom du célèbre tournoi de tennis joué sur gazon à Londres ?",
+            "answers": ["Roland-Garros", "US Open", "Australian Open", "Wimbledon"],
+            "correct": 3
+        },
+        {
+            "question": "En quelle année les premiers Jeux Olympiques modernes ont-ils eu lieu ?",
+            "answers": ["1896", "1900", "1924", "1960"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport se joue sur une patinoire avec des bâtons et une rondelle ?",
+            "answers": ["Patinage artistique", "Hockey sur glace", "Curling", "Luge"],
+            "correct": 1
+        },
+        {
+            "question": "Quel athlète a remporté 8 médailles d'or aux Jeux Olympiques d'été de 2008 ?",
+            "answers": ["Usain Bolt", "Michael Phelps", "Carl Lewis", "Ian Thorpe"],
+            "correct": 1
+        },
+        {
+            "question": "Quelle est la distance d'un marathon en kilomètres ?",
+            "answers": ["21 km", "25 km", "42 km", "50 km"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom du sport où les joueurs utilisent une raquette pour frapper une balle au-dessus d'un filet ?",
+            "answers": ["Tennis", "Badminton", "Volley-ball", "Squash"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport de combat utilise des gants et se pratique sur un ring ?",
+            "answers": ["Judo", "Karate", "Boxe", "Taekwondo"],
+            "correct": 2
+        },
+        {
+            "question": "Quel est le nom du célèbre tournoi de golf joué en avril à Augusta ?",
+            "answers": ["The Masters", "US Open", "British Open", "PGA Championship"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport est connu pour ses sauts en hauteur et en longueur sur une piste ?",
+            "answers": ["Athlétisme", "Gymnastique", "Natation", "Cyclisme"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les joueurs se déplacent sur un terrain à roulettes et essaient de marquer des buts avec un ballon ?",
+            "answers": ["Roller hockey", "Football", "Handball", "Basket-ball"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport se joue avec une balle ovale et des passes entre les joueurs ?",
+            "answers": ["Football", "Rugby", "Basket-ball", "Baseball"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le nom de l'épreuve de natation la plus courte aux Jeux Olympiques ?",
+            "answers": ["200 mètres", "400 mètres", "800 mètres", "50 mètres"],
+            "correct": 3
+        },
+        {
+            "question": "Quel sport utilise une raquette et se joue avec des balles de plumes ?",
+            "answers": ["Badminton", "Tennis", "Squash", "Ping-pong"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le sport où les athlètes sautent en hauteur à partir d'une barre transversale ?",
+            "answers": ["Saut en hauteur", "Saut en longueur", "Perche", "Triple saut"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport qui consiste à grimper sur des parois rocheuses ou artificielles ?",
+            "answers": ["Escalade", "VTT", "Parapente", "Randonnée"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les joueurs se déplacent sur une surface glacée avec des balais et une pierre ?",
+            "answers": ["Hockey sur glace", "Curling", "Patinage artistique", "Luge"],
+            "correct": 1
+        },
+        {
+            "question": "Quel est le sport où les joueurs utilisent un ballon et doivent marquer des points en le lançant dans un panier ?",
+            "answers": ["Basket-ball", "Football", "Handball", "Volleyball"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport se pratique sur un terrain en terre battue, en gazon ou en synthétique avec des raquettes ?",
+            "answers": ["Tennis", "Badminton", "Squash", "Volley-ball"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les athlètes pratiquent des mouvements acrobatiques sur un tapis ?",
+            "answers": ["Gymnastique", "Natation", "Athlétisme", "Boxe"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les joueurs frappent une balle avec une batte et courent autour de bases ?",
+            "answers": ["Baseball", "Football", "Basket-ball", "Handball"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'épreuve de course de vitesse en athlétisme sur 100 mètres ?",
+            "answers": ["Sprint", "Marathon", "Haies", "Relais"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport de combat utilise des prises et des techniques de soumission ?",
+            "answers": ["Judo", "Boxe", "Karate", "Taekwondo"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les athlètes courent dans des pistes avec des obstacles ?",
+            "answers": ["Hurdles", "Marathon", "Sprints", "Relais"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le sport où les athlètes patinent sur une surface glacée pour effectuer des figures artistiques ?",
+            "answers": ["Patinage artistique", "Hockey sur glace", "Curling", "Luge"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom de l'épreuve de course de longue distance sur route de 42,195 kilomètres ?",
+            "answers": ["Marathon", "Semi-marathon", "Course de 10 km", "Course de 5 km"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les joueurs utilisent des bâtons pour frapper une balle dans un trou ?",
+            "answers": ["Golf", "Tennis", "Baseball", "Cricket"],
+            "correct": 0
+        },
+        {
+            "question": "Quel sport de glisse se pratique sur des vagues avec une planche ?",
+            "answers": ["Surf", "Ski", "Snowboard", "Patinage"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les athlètes réalisent des figures acrobatiques en sautant depuis une plateforme ?",
+            "answers": ["Plongée", "Natation synchronisée", "Gymnastique", "Saut à ski"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport où les athlètes doivent franchir des barres horizontales à l'aide d'une perche ?",
+            "answers": ["Saut à la perche", "Saut en hauteur", "Saut en longueur", "Triple saut"],
+            "correct": 0
+        },
+        {
+            "question": "Quel est le nom du sport de ballon où les joueurs se déplacent avec les mains et marquent dans des buts ?",
+            "answers": ["Handball", "Football", "Basket-ball", "Volleyball"],
+            "correct": 0
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+/*Police */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&family=Lato:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Germania+One&family=MedievalSharp&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Space+Mono&display=swap');
+
+/* ROOT */
+:root {
+  /* Couleurs */
+  --pmr-clr: #08568b;
+  --sdr-clr: #042b45;
+  --txt-clr: #333;
+  --del-clr: #6a0813;
+  --del-hvr: #f83600;
+  --win-clr: #106102;
+  --blk-clr: #000;
+  --wth-clr: #f9f9f9;
+  --game-bg: linear-gradient(90deg, #b98108, #f83600);
+  --app-bg: linear-gradient(90deg, #08568b, #00a2e8);
+  --pop-bg: #d8e4f4;
+
+  --thm-blk: #0c0c0c;
+  --thm-wth: #dddddd;
+  --wth-game: linear-gradient(90deg, #baab8a, #f7bdad);
+  --wth-app: linear-gradient(90deg, #6b7f8c, #a2d3e8);
+  --blk-game: linear-gradient(90deg, #3b362b, #5e4842);
+  --blk-app: linear-gradient(90deg, #0a0c0d, #495f69);
+  --blk-gamapp: linear-gradient(to right, #7d7a6b, #4b594f);
+  --wth-gamapp: linear-gradient(to right, #fcf6dc, #b6d9bf);
+
+  /* Polices */
+  --title-font: 'Courier New', Courier, monospace;
+  --df-font: 'Poppins', 'Roboto', 'Lato', sans-serif;
+  --btn-font: cursive;
+
+  --mdn-title: 'Cinzel Decorative', serif;
+  --mdn-font: 'MedievalSharp', sans-serif;
+  --mdn-btn: 'Germania One', sans-serif;
+  --trd-title: 'Space Mono', serif;
+  --trd-font: 'Courier New', sans-serif;
+  --trd-btn: 'Source Code Pro', 'Lucida Console', sans-serif;
+
+  /* Tailles */
+  --df-title-size: 2em;
+  --df-text-size: 1em;
+
+  --mn-title-size: calc(var(--df-title-size)/var(--nb));
+  --mn-text-size: calc(var(--df-text-size)/var(--nb));
+  --mx-title-size:calc(var(--df-title-size)*var(--nb));
+  --mx-text-size: calc(var(--df-text-size)*var(--nb));
+  --nb: 1.25;
+}

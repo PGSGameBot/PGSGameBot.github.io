@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>MemoTiles - Reproduisez les couleurs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MemoTiles.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-game.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/game-MTLogo.png" type="image/x-icon">
+
+  <meta name="description" content="MEMO TILES, Un jeu de mémoire pour reproduire les couleurs">
+  <meta name="keywords" content="MEMO TILES, PGB, Jeux, Application, logiciel, Gestion, jeux interactifs, PGS Game Bot, tournois, applications innovantes">
+  <meta name="author" content="Pro Gestion Soft">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PGS GAME BOT - MEMO TILES">
+  <meta property="og:description" content="Jouez à Memo Tiles sur PGSGAMEBOT.">
+  <meta property="og:image" content="../../assets/img/pp-repo-MT.png">
+  <meta property="og:url" content="https://PGSGameBot.github.io//games/MemoTiles/MemoTiles.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jouez à Memo Tiles sur PGSGAMEBOT">
+  <meta name="twitter:description" content="Découvrez toutes les applications sur PGSGAMEBOT.">
+  <meta name="twitter:image" content="../../assets/img/pp-repo-MT.png">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <div id="game">
+    <header id="header">
+      <img src="../../assets/img/game-MTLogo.png" alt="Logo Memo Tiles" id="logo">
+      <h1>Memo Tiles</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <div class="perso"></div>
+
+      <button id="toggle-instructions-btn">Afficher les instructions</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>Comment jouer à Memo Tiles</h2>
+        <p><strong>Memo Tiles</strong> est un jeu de mémoire conçu pour tester et améliorer votre capacité
+          visuelle. Le jeu est simple à comprendre mais devient de plus en plus complexe à mesure que vous
+          progressez.</p>
+
+        <h3>Règles du jeu</h3>
+        <ol>
+          <li><strong>Choisissez une difficulté :</strong> Avant de commencer, sélectionnez le niveau de
+            difficulté qui vous convient le mieux :
+            <ul>
+              <li><strong>Facile :</strong> 3 tuiles à reproduire en 30 secondes. Vitesse d'apparission
+                très lente.</li>
+              <li><strong>Moyen :</strong> 4 tuiles à reproduire en 25 secondes. Vitesse d'apparission
+                lente.</li>
+              <li><strong>Difficile :</strong> 5 tuiles à reproduire en 20 seconde. Vitesse d'apparission
+                rapide.</li>
+              <li><strong>Pro :</strong> 6 tuiles à reproduire en 15 seconde. Vitesse d'apparission très
+                rapide.</li>
+            </ul>
+          </li>
+          <li><strong>Activez le mode contre la montre (optionnel) :</strong> Pour ajouter un défi
+            supplémentaire, vous pouvez activer le mode contre la montre. Dans ce mode, vous devez retrouver
+            la couleur avant la fin du temps imparti. Le temps restant sera affiché en haut de la grille.
+          </li>
+          <li><strong>Démarrez le jeu :</strong> Cliquez sur le bouton <strong>Commencer</strong> pour lancer
+            la partie. Les couleurs de la grille apparaîtront brièvement avant de se disparaître. Votre
+            tâche est de vous rappeler de l'ordre d'affichage de chaque couleur et de les reproduire.</li>
+          <li><strong>Score :</strong> Votre score augmente chaque fois que vous trouvez une paire
+            correspondante. Essayez de terminer le plus de partie possible pour maximiser votre score.</li>
+          <li><strong>Meilleur score :</strong> Le jeu enregistre votre meilleur score, alors essayez de
+            battre votre propre record à chaque partie !</li>
+        </ol>
+
+        <h3>Conseils</h3>
+        <ul>
+          <li><strong>Concentrez-vous :</strong> La clé du succès est la concentration. Essayez de mémoriser
+            les tuiles au fur et à mesure qu'elles se retournent.</li>
+          <li><strong>Ne vous précipitez pas :</strong> Même en mode contre la montre, il est important de ne
+            pas se précipiter. Une sélection précipitée pourrait vous coûter des points si les tuiles ne
+            correspondent pas.</li>
+        </ul>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Memo Tile</strong> amusant et éducatif, n'hésitez pas à la partager avec vos
+          amis en utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+        <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+        <h2>Désactiver sons de :</h2>
+        <label><input type="checkbox" id="toggle-victory-sound"> Bon choix</label>
+        <br>
+        <label><input type="checkbox" id="toggle-incorrect-sound"> Mauvaix choix</label>
+        <br>
+        <label><input type="checkbox" id="toggle-levelup-sound"> Niveau réussi</label>
+        <hr>
+        <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <label for="difficulty">Sélectionnez la difficulté :</label>
+      <select id="difficulty">
+        <option value="easy">Facile</option>
+        <option value="medium">Moyen</option>
+        <option value="hard">Difficile</option>
+        <option value="pro">Pro</option>
+      </select>
+
+      <br>
+
+      <label for="timer-mode">Mode contre la montre :</label>
+      <input type="checkbox" id="timer-mode">
+      <p id="timer-display">Temps restant : <span id="timer">--</span></p>
+
+      <div id="game-board"></div>
+      <button id="start-btn" class="uvs-btn">Commencer</button>
+
+      <br>
+
+      <p>Score: <span id="score">0</span></p>
+      <p>Meilleur Score: <span id="high-score">0</span></p>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="../../assets/static/pp-perso.js"></script>
+  <script src="../../assets/static/pp-load.js"></script>
+  <script src="MemoTiles.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

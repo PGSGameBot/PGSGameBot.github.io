@@ -1,0 +1,162 @@
+#start-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.select-parameter {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#start-button,
+#stop-button {
+  display: block;
+  font-family: var(--btn-font);
+  border-radius: 10px;
+  border: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: var(--df-text-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#game-container {
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#question-container {
+  background-color: var(--wth-clr);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#question-number {
+  color: var(--sdr-clr);
+  font-weight: bolder;
+}
+
+#question {
+  color: var(--txt-clr);
+  font-size: var(--df-text-size);
+  margin-bottom: 15px;
+}
+
+#answers button {
+  font-family: var(--btn-font);
+  display: block;
+  font-size: var(--df-text-size);;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#answers button:hover {
+  background-color: var(--wth-clr);
+  border: 1px dashed var(--txt-clr);
+  border-radius: 10px;
+}
+
+.correct {
+  background-color: var(--win-clr) !important;
+  color: var(--wth-clr);
+}
+
+.incorrect {
+  background-color: var(--del-clr) !important;
+  color: var(--wth-clr);
+}
+
+#timer {
+  font-size: var(--df-text-size);
+  margin-bottom: 20px;
+}
+
+#score-container {
+  margin-top: var(--df-text-size);;
+}
+
+#score {
+  font-size: var(--df-text-size);
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  #game-container {
+    padding: 15px;
+  }
+
+  #countdown,
+  #score {
+    font-size: var(--df-text-size);;
+  }
+
+  .select-parameter {
+    display: block;
+  }
+}
+
+
+/* THEME */
+/* --- Clair --- */
+body.light #question-container {
+  background-color: var(--thm-wth);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+body.light #question-number,
+body.light #question {
+  color: var(--thm-blk);
+}
+
+body.light #answers button:hover {
+  background-color: var(--thm-wth);
+  border: 1px dashed var(--thm-blk);
+}
+
+/* --- Sombre --- */
+body.dark #question-container {
+  background-color: var(--thm-blk);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+body.dark #question-number,
+body.dark #question {
+  color: var(--thm-wth);
+}
+
+body.dark #answers button:hover {
+  background-color: var(--thm-blk);
+  color: var(--thm-wth);
+  border: 1px dashed var(--thm-wth);
+}
+
+/* POLICE */
+/* --- Moderne --- */
+body.modern #answers button {
+  font-family: var(--mdn-btn);
+}
+
+/* --- Classique --- */
+body.tradi #answers button {
+  font-family: var(--trd-btn);
+}
+
+/* TAILLE */
+/* --- Minimale --- */ /* --- Pas disponible --- */
+
+/* --- Maximale --- */
+body.maxi .select-parameter {
+  display: block;
+}

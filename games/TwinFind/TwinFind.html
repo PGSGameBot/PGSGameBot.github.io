@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Twin Find - Associez des paires d'éléments cachés</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="TwinFind.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-game.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/game-TFLogo.png" type="image/x-icon">
+
+  <meta name="description" content="TWIN FIND, Un jeu d'association ppur retrouver des paires">
+  <meta name="keywords" content="TWIN FIND, PGB, Jeux, Application, logiciel, Gestion, jeux interactifs, PGS Game Bot, tournois, applications innovantes">
+  <meta name="author" content="Pro Gestion Soft">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PGS GAME BOT - TWIN FIND">
+  <meta property="og:description" content="Jouez à Twin Find sur PGSGAMEBOT.">
+  <meta property="og:image" content="../../assets/img/pp-repo-TF.png">
+  <meta property="og:url" content="https://PGSGameBot.github.io//games/MemoTiles/MemoTiles.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PGS GAME BOT - TWIN FIND">
+  <meta name="twitter:description" content="Jouez à Twin Find sur PGSGAMEBOT.">
+  <meta name="twitter:image" content="../../assets/img/pp-repo-MT.png">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <div id="game">
+    <header id="header">
+      <img src="../../assets/img/game-TFLogo.png" alt="Logo Twin Find" id="logo">
+      <h1>Twin Find</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <div class="perso"></div>
+
+      <div class="wrapper">
+        <div class="control">
+          <label for="imageTypeSelector">Image :</label>
+          <select id="imageTypeSelector">
+            <option value="animals">Animaux</option>
+            <option value="fruits">Fruits</option>
+            <option value="symbols">Symboles</option>
+          </select>
+
+          <label for="gameModeSelector">Mode :</label>
+          <select id="gameModeSelector">
+            <option value="all">Combo</option>
+            <option value="time">Temps</option>
+            <option value="flips">Flips</option>
+            <option value="none">Aucun</option>
+          </select>
+
+          <label for="prefetchSelector">Préaffichage :</label>
+          <select id="prefetchSelector">
+            <option value="yes">Oui</option>
+            <option value="no">Non</option>
+          </select>
+
+          <label for="difficultySelector">Difficulté :</label>
+          <select id="difficultySelector">
+            <option value="easy">Facile</option>
+            <option value="medium">Moyen</option>
+            <option value="hard">Difficile</option>
+          </select>
+        </div>
+        
+        <ul class="cards"></ul>
+
+        <button id="startBtn" class="uvs-btn">Démarrer</button>
+
+        <div class="details">
+          <p class="time">Durée: <span><b>120</b>s</span></p>
+          <p class="flips">Mouvement: <span><b>0</b></span></p>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="../../assets/static/pp-perso.js"></script>
+  <script src="../../assets/static/pp-load.js"></script>
+  <script src="TwinFind.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+</body>
+
+</html>

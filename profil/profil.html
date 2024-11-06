@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Profil Utilisateur - PGSGameBot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="profil.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../assets/img/auth-Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+</head>
+
+<body>
+  <div class="profile-container">
+    <header id="header">
+      <img src="../assets/img/auth-Logo.png" alt="Logo profil" id="logo">
+      <h1>Profil Utilisateur</h1>
+
+      <nav id="navbar">
+        <button class="menu-toggle" aria-label="Menu"><span class="menu-icon"></span></button>
+        <ul class="menu">
+          <li><a href="../../index.html">&larr; Accueil</a></li>
+          <li><a href="#">&#128274; Déconnecter</a></li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle">Langue &#9662;</a>
+            <ul class="submenu">
+              <div id="google_translate_element" style="display:none;"></div>
+              <div id="flags">
+                <a href="#" onclick="changeLanguage('fr')">🇫🇷</a>
+                <a href="#" onclick="changeLanguage('en')">🇺🇸</a>
+              </div>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Profil -->
+      <div class="profile-display" id="profileDisplay">
+        <div class="profile-pic-container">
+          <img id="profileImage" src="../assets/img/auth-Profil.png" alt="Photo de profil" class="profile-pic">
+
+          <div class="change-pic-overlay">
+            <button id="changePicBtn">Changer photo</button>
+            <input type="file" id="profilePic" accept="image/*" style="display:none;">
+          </div>
+        </div>
+
+        <div id="profile-info-Display">
+          <p id="firstNameDisplay">Prénoms : </p>
+          <p id="lastNameDisplay">Nom : </p>
+          <p id="usernameDisplay">Nom d'utilisateur : </p>
+          <p id="dobDisplay">Date de naissance : </p>
+          <p id="genderDisplay">Sexe : </p>
+          <p id="emailDisplay">Adresse mail : </p>
+          <p id="phoneDisplay">Numéro de téléphone : </p>
+          <p id="bioDisplay">Bibliographie : </p>
+        </div>
+
+        <div class="profile-display-btn">
+          <button id="editBtn">Actualiser mes infos</button>
+          <button id="deleteBtn">Supprimer mon profil</button>
+        </div>
+
+        <div class="profile-display" id="profileDisplay">
+          <button id="moreInfoBtn">En savoir plus 🔻</button>
+          <p id="moreInfoText" style="display:none;">Ce profil est juste à titre de test. Bientôt, une
+            connexion sera nécessaire pour y accéder.</p>
+        </div>
+      </div>
+
+      <!-- Formulaire -->
+      <div class="profile-edit" id="profileEdit" style="display:none;">
+        <label for="firstName">Prénoms : </label>
+        <input type="text" id="firstName"><br><br>
+
+        <label for="lastName">Nom : </label>
+        <input type="text" id="lastName"><br><br>
+
+        <label for="username">Nom d'utilisateur : </label>
+        <input type="text" id="username"><br><br>
+
+        <label for="dob">Date de naissance : </label>
+        <input type="date" id="dob"><br><br>
+
+        <label for="gender">Sexe : </label>
+        <select id="gender">
+          <option value="Masculin">Masculin</option>
+          <option value="Féminin">Féminin</option>
+          <option value="Autre">Autre</option>
+        </select><br><br>
+
+        <label for="email">Adresse mail : </label>
+        <input type="email" id="email"><br><br>
+
+        <label for="phone">Numéro de téléphone : </label>
+        <input type="tel" id="phone"><br><br>
+
+        <label for="bio">Bibliographie : </label>
+        <textarea id="bio" maxlength="500"></textarea><br><br>
+
+        <div class="profile-edit-btn">
+          <button id="saveBtn">Sauvegarder</button>
+          <button id="cancelBtn">Annuler</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 PGSGameBot. Tous droits réservés.</p>
+    </footer>
+  </div>
+
+  <script src="profil.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

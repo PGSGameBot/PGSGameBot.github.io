@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Trivia Battle - Repondez aux questions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="TriviaBattle.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-game.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/game-TBLogo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <div id="game">
+    <header id="header">
+      <img src="../../assets/img/game-TBLogo.png" alt="Logo Trivia Battle" id="logo">
+      <h1>Trivia Battle</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <div class="perso"></div>
+
+      <button id="toggle-instructions-btn">Afficher les instructions</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>Comment jouer à Trivia Battle</h2>
+        <p><strong>Trivia Battle</strong> est un jeu de questions-réponses palpitant où votre objectif est de
+          répondre correctement à un maximum de questions dans le temps imparti. Voici comment jouer :</p>
+
+        <h3>Démarrage du jeu</h3>
+        <ol>
+          <li>Lorsque vous démarrez <strong>Trivia Battle</strong>, vous serez accueilli par un écran de
+            sélection de catégorie et de difficulté.</li>
+          <li>Choihissez la catégorie dans laquelle vous souhaitez répondre aux questions.</li>
+          <li> Choisissez votre niveau de difficulté parmi <strong>Facile</strong>, <strong>Moyen</strong>, ou
+            <strong>Difficile</strong>.
+          </li>
+          <ul>
+            <li><strong>Facile :</strong> 10 questions avec un temps de réponse de 30 secondes par question.
+            </li>
+            <li><strong>Moyen :</strong> 15 questions avec un temps de réponse de 20 secondes par question.
+            </li>
+            <li><strong>Difficile :</strong> 20 questions avec un temps de réponse de 10 secondes par
+              question.
+            </li>
+          </ul>
+          </li>Cliquez sur le bouton <strong>Démarrer</strong> pour commencer la partie.</li>
+        </ol>
+
+        <h3>Répondre aux questions</h3>
+        <p>- Une fois la partie lancée, une question apparaîtra à l'écran, accompagnée de plusieurs choix de
+          réponses.</p>
+        <p>- Votre tâche est de sélectionner la réponse correcte en cliquant sur le bouton correspondant.</p>
+        <p>- Vous avez un temps limité pour répondre à chaque question, indiqué par le compte à rebours situé
+          au-dessus des questions.</p>
+
+        <h3>Gagner des points</h3>
+        <p>- Pour chaque réponse correcte, vous gagnerez des points. Plus vous répondez rapidement et
+          correctement, plus votre score sera élevé.</p>
+        <p>- Si vous sélectionnez la mauvaise réponse ou si le temps s'écoule avant que vous ne puissiez
+          répondre, vous ne gagnerez aucun point pour cette question.</p>
+
+        <h3>Fin de la partie</h3>
+        <p>- Le jeu se termine lorsque vous avez répondu à toutes les questions disponibles pour le niveau de
+          difficulté sélectionné.</p>
+        <p>- À la fin du jeu, votre score total s'affichera, et vous recevrez une notification vous indiquant
+          que vous avez terminé le niveau.</p>
+
+        <h3>Conseils</h3>
+        <p>- <strong>Soyez rapide !</strong> Le temps est compté, alors réfléchissez rapidement pour maximiser
+          votre score.</p>
+        <p>- <strong>Choisissez votre niveau judicieusement.</strong> Si vous êtes nouveau dans le jeu,
+          commencez par le mode Facile pour vous familiariser avant de tenter les niveaux plus difficiles.</p>
+        <p>- <strong>Améliorez-vous à chaque partie.</strong> Apprenez des questions précédentes pour augmenter
+          vos chances de réussir les suivantes.</p>
+
+        <p><strong>Trivia Battle</strong> est un excellent moyen de tester vos connaissances et d'améliorer vos
+          réflexes mentaux. À vous de jouer et de battre tous les records !</p>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Trivia Battle</strong> amusant et éducatif, n'hésitez pas à la partager avec
+          vos
+          amis en utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+        <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+        <h2>Désactiver sons de :</h2>
+        <label><input type="checkbox" id="toggle-victory-sound"> Bonnes réponses</label>
+        <br>
+        <label><input type="checkbox" id="toggle-incorrect-sound"> Mauvaise réponse</label>
+        <br>
+        <label><input type="checkbox" id="toggle-levelup-sound"> Jeu terminé</label>
+        <hr>
+        <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <!-- Selection de démarrage -->
+      <div id="start-container">
+        <div class="select-parameter">
+          <label for="category">Catégorie</label>
+          <select id="category">
+            <option value="culture">Culture d'entreprise</option>
+            <option value="science">Science</option>
+            <option value="math">Mathématiques</option>
+            <option value="it">Informatique</option>
+            <option value="biology">Biologie</option>
+            <option value="accounting">Comptabilité</option>
+            <option value="projectManagement">Gestion de projet</option>
+            <option value="en">Anglais</option>
+            <option value="fr">Français</option>
+            <option value="bj">Le Bénin</option>
+            <option value="sport">Sport</option>
+          </select>
+
+          <br>
+
+          <label for="difficulty">Difficulté</label>
+          <select id="difficulty">
+            <option value="easy">Facile</option>
+            <option value="medium">Moyen</option>
+            <option value="hard">Difficile</option>
+          </select>
+        </div>
+        <br>
+
+        <button id="start-button" class="uvs-btn">Démarrer</button>
+      </div>
+
+      <br><br>
+
+      <!-- Conteneur du jeu -->
+      <div id="game-container" style="display: none;">
+        <div id="question-container">
+          <div id="question-number"></div>
+          <br>
+          <div id="question"></div>
+          <div id="answers"></div>
+        </div>
+
+        <div id="timer">Temps restant: <span id="countdown"></span></div>
+        <div id="score-container">
+          <div id="score">Score : 0</div>
+          <div id="best-score">Meilleur score : 0</div>
+        </div>
+
+        <button id="stop-button" class="uvs-esc">Arrêter</button>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="../../assets/static/pp-perso.js"></script>
+  <script src="../../assets/static/pp-load.js"></script>
+  <script src="TriviaBattle.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

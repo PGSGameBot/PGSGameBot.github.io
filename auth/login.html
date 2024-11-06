@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Connexion - PGSGameBot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="auth.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../assets\img\pp-Logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container">
+            <a href="../index.html" class="back-button"><img src="../assets\img\pp-Logo.png" alt="Logo PGSGAMEBOT"
+                    id="logo"></a>
+            <div class="header-text">
+                <h1>CONNEXION</h1>
+            </div>
+        </div>
+
+        <nav>
+            <ul id="menu" class="menu">
+                <li><a href="register.html">Inscription</a></li>
+                <li class="active-page"><a href="login.html">Connexion</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon"></div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bienvenue sur PGS GAME BOT !</h2>
+        <p>Veuillez vous connecter pour accéder à votre compte et profiter de nos services personnalisés.</p>
+
+        <form id="login-form">
+            <div id="error-message" style="color: red; display: none;"></div> <!-- Div pour les erreurs -->
+
+            <label for="login-username">Nom d'utilisateur :</label>
+            <input type="text" id="login-username" required>
+
+            <label for="login-password">Mot de passe :</label>
+            <input type="password" id="login-password" required>
+
+            <button type="submit">Connexion</button>
+        </form>
+
+        <p>Nouveau ici ? <a href="register.html">Créez un compte ici.</a></p>
+
+
+        <!-- Popup -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="popup-close" class="popup-close">&times;</span>
+                <img src="../assets\img\pp-Logo.png" alt="En développement" id="poplogo">
+                <h2>Connexion impossible</h2>
+                <p>Nous réglons encore quelques petits détails sur cette page <br>
+                    D’ici là, tout sera bon et vous pourrez vous connecter facilement</p>
+                    
+                <div class="pop-link">
+                    <a href="../index.html" class="home">&larr; Retour à l’accueil</a>
+                    <a href="../profil/profil.html" class="profil">Aller au profil provisoire &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PGSGameBot. Tous droits réservés.</p>
+        <a href="../index.html" class="back-button"> &larr; Retourner à l'accueil</a>
+    </footer>
+
+    <script src="login.js"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>

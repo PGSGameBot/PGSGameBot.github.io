@@ -1,0 +1,213 @@
+@font-face {
+  font-family: VCR;
+  src: url("../../assets/fonts/VCR.ttf");
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+#reset {
+  font-family: var(--btn-font);
+  border-radius: 10px;
+  border: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: var(--df-text-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: grid;
+  font-family: VCR;
+  margin: 20px auto;
+  justify-content: center;
+  gap: 10px;
+  grid-template-columns: repeat(3, 120px);
+  grid-template-rows: repeat(3, 120px);
+}
+
+.tile {
+  display: flex;
+  background-color: var(--wth-clr);
+  font-size: var(--df-title-size);
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.tile:hover {
+  background-color: #ddd;
+  border: 1px solid #333;
+  transform: scale(1.05);
+}
+
+.tile.x-win {
+  background-color: var(--win-clr);
+}
+
+.tile.o-win {
+  background-color: var(--del-clr);
+}
+
+.tile.winner {
+  background-color: var(--win-clr);
+  color: var(--wth-clr);
+  border: 2px solid #fff;
+}
+
+.tile.loser {
+  background-color: var(--del-clr);
+  color: var(--wth-clr);
+  border: 2px solid #fff;
+}
+
+.tile.disabled {
+  pointer-events: none;
+}
+
+/* Motif de grille */
+.tile.grid-pattern {
+  background-image: linear-gradient(45deg, #ccc 25%, transparent 25%),
+    linear-gradient(-45deg, #ccc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ccc 75%),
+    linear-gradient(-45deg, transparent 75%, #ccc 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.display {
+  font-size: var(--df-title-size);
+  margin-bottom: 20px;
+}
+
+.display-player {
+  font-family: VCR;
+  font-weight: bold;
+}
+
+.announcer {
+  font-size: var(--df-title-size);
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.stats {
+  display: flex;
+  font-size: var(--df-text-size);
+  margin: 20px 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stats p {
+  margin: 5px 0;
+}
+
+#gamesPlayed {
+  color: var(--blk-clr);
+  font-weight: bolder;
+}
+
+#wins {
+  color: var(--win-clr);
+  font-weight: bolder;
+}
+
+#losses {
+  color: var(--del-clr);
+  font-weight: bolder;
+}
+
+#ties {
+  color: var(--txt-clr);
+  font-weight: bolder;
+
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .container {
+    max-width: 300px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+
+  }
+
+  .tile {
+    width: 100px;
+    height: 100px;
+  }
+
+  .stats {
+    display: inline;
+  }
+}
+
+
+/* THEME */
+/* --- Clair --- */
+body.light .tile {
+  background-color: var(--thm-wth);
+  border: 1px solid var(--thm-blk);
+}
+
+body.light .tile:hover {
+  background-color: var(--wth-clr);
+}
+
+body.light .tile.winner {
+  background-color: var(--win-clr);
+}
+
+body.light .tile.loser {
+  background-color: var(--del-clr);
+}
+
+body.light #gamesPlayed {
+  color: var(--thm-blk);
+}
+
+/* --- Sombre --- */
+body.dark .tile {
+  background-color: var(--thm-blk);
+  border: 1px solid var(--thm-wth);
+}
+
+body.dark .tile:hover {
+  background-color: var(--blk-clr);
+}
+
+body.dark .tile.winner {
+  background-color: var(--win-clr);
+}
+
+body.dark .tile.loser {
+  background-color: var(--del-clr);
+}
+
+body.dark #gamesPlayed {
+  color: var(--thm-wth);
+}
+
+body.dark .tile.grid-pattern {
+  background-image: linear-gradient(45deg, #333 25%, transparent 25%),
+    linear-gradient(-45deg, #333 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #333 75%),
+    linear-gradient(-45deg, transparent 75%, #333 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+/* POLICE */ /* --- Pas disponible --- */
+
+/* TAILLE */ /* --- Pas disponible --- */

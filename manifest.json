@@ -1,0 +1,16 @@
+{
+    "name": "PGS GAME BOT",
+    "short_name": "PGSGAMEBOT",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#333",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "assets/img/pp-Logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

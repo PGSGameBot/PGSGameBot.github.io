@@ -1,0 +1,88 @@
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Styles pour le conteneur des modes de jeu */
+#mode-container {
+    margin-top: 20px;
+}
+
+#mode-container button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#mode-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les boutons Commencer et Reprendre */
+#start-container, #resume-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#start-container button, #resume-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#start-container button:hover, #resume-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour la zone du jeu */
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#game-canvas {
+    border: 2px solid #ddd;
+    background-color: var(--wth-clr)
+}
+
+/* Styles pour le clavier virtuel */
+#virtual-keyboard {
+    margin-top: 20px;
+}
+
+.arrow {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.arrow:hover {
+    background-color: #0056b3;
+}

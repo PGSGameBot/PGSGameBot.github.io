@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Contribution - PGS GAME BOT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="page.css">
+  <link rel="stylesheet" href="../assets/static/pp-root.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../assets/img/pp-Logo.png" type="image/x-icon">
+
+  <meta name="description" content="Contribution à PGSGAMEBOT, Une plateforme de jeuw interactifs propulsé par PRO GESTION SOFT">
+  <meta name="keywords" content="PGSGAMEBOT, PGB, Jeux, Application, logiciel, Gestion, jeux interactifs, PGS Game Bot, tournois, applications innovantes">
+  <meta name="author" content="Pro Gestion Soft">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PGS GAME BOT - CONTRIBUTION">
+  <meta property="og:description" content="Comment contribuer à PGSGAMEBOT ?">
+  <meta property="og:image" content="../assets/img/pp-repository.png">
+  <meta property="og:url" content="https://PGSGameBot.github.io/pages/contribution.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PGS GAME BOT - CONTRIBUTION">
+  <meta name="twitter:description" content="Comment contribuer à PGSGAMEBOT ?">
+  <meta name="twitter:image" content="../assets/img/pp-repository.png">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <header id="header">
+    <div class="header-container">
+      <a href="../index.html"><img src="../assets/img/pp-Logo.png" alt="Logo PGSGAMEBOT" id="logo"></a>
+      <div class="header-text">
+        <h1>CONTRIBUER AU DEVELOPPEMENT</h1>
+      </div>
+    </div>
+
+    <nav></nav>
+  </header>
+
+  <main>
+    <div class="perso"></div>
+    
+    <section class="announce">
+      <p>Merci de votre intérêt pour contribuer à <strong>PGS Game Bot</strong> ! <br>
+        Voici quelques instructions pour vous aider à commencer.</p>
+    </section>
+
+    <section>
+      <h2>Comment Contribuer</h2>
+
+      <ol>
+        <li>
+          <strong>Fork le dépôt :</strong> Commencez par forker le dépôt sur GitHub en cliquant sur le bouton
+          <strong>Fork</strong> en haut à droite de la page du projet.
+        </li>
+
+        <li>
+          <strong>Clonez votre Fork :</strong> Clonez le dépôt forké sur votre machine locale :
+          <pre><button class="copy-btn" data-clipboard-target="#code-clone">Copier</button>
+            <code id="code-clone">git clone https://github.com/ProGestionSoft/pgsgamebot.git</code></pre>
+        </li>
+
+        <li>
+          <strong>Créez une branche :</strong> Créez une nouvelle branche pour votre fonctionnalité ou
+          correction :
+          <pre><button class="copy-btn" data-clipboard-target="#code-branch">Copier</button>
+            <code id="code-branch">git checkout -b pgsgamebot</code></pre>
+        </li>
+
+        <li>
+          <strong>Effectuez les modifications :</strong> Apportez les modifications nécessaires dans votre
+          branche. Assurez-vous de bien tester votre code avant de soumettre vos changements.
+        </li>
+
+        <li>
+          <strong>Committez vos modifications :</strong> Ajoutez et commettez vos modifications :
+          <pre><button class="copy-btn" data-clipboard-target="#code-commit">Copier</button>
+            <code id="code-commit">git add. <br>git commit -m "Description claire de vos modifications"</code></pre>
+        </li>
+
+        <li>
+          <strong>Poussez votre branche :</strong> Poussez votre branche vers votre fork :
+          <pre><button class="copy-btn" data-clipboard-target="#code-push">Copier</button>
+            <code id="code-push">git push origin pgsgamebot</code></pre>
+        </li>
+
+        <li>
+          <strong>Créez une pull request :</strong> Allez sur GitHub et ouvrez une pull request depuis votre
+          branche vers la branche principale (<em>main</em>) du dépôt d'origine. Décrivez clairement les
+          modifications apportées et pourquoi elles sont nécessaires.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Guide de style</h2>
+      <ul>
+        <li>Respectez les conventions de style de code utilisées dans le projet.</li>
+        <li>Assurez-vous que votre code est bien documenté et commenté.</li>
+        <li>Ajoutez des tests unitaires pour les nouvelles fonctionnalités lorsque cela est possible.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Signalement de Bugs</h2>
+      <p>Si vous rencontrez un bug ou un problème, veuillez ouvrir une issue sur GitHub en fournissant autant de
+        détails que possible pour nous aider à reproduire et résoudre le problème.</p>
+    </section>
+
+    <section>
+      <h2>Questions</h2>
+      <p>Pour toute question ou clarification, n'hésitez pas à nous contacter via GitHub Discussions ou à nous
+        envoyer un message direct.</p>
+    </section>
+
+    <section>
+      <h2>Autre</h2>
+      <h3>Commit et Push les changements</h3>
+      <pre><button class="copy-btn" data-clipboard-target="#code-commit-push">Copier</button>
+        <code id="code-commit-push">git add .<br>git commit -m "Initial commit"<br>git push origin main</code></pre>
+      
+      <h3>Structure des fichiers (en attente de mise à jour)</h3>
+      <pre><button class="copy-btn" data-clipboard-target="#code-structure">Copier</button>
+        <code id="code-structure">PGSGameBot/
+│
+├── .gitignore
+├── README.md
+├── CONTRIBUTING.md
+├── requirements.txt
+├── main.py
+├── config/
+│   └── config.py
+│
+├── handlers/
+│   ├── trivia_battle_handler.py
+│   ├── memo_tiles_handler.py
+│   └── runsnake_handler.py
+├── games/
+│   ├── TriviaBattle/
+│   │   ├── index.html
+│   │   ├── styles.css
+│   │   └── script.js
+│   ├── MemoTiles/
+│   │   ├── index.html
+│   │   ├── styles.css
+│   │   └── script.js
+│   └── RunSnake/
+│       ├── index.html
+│       ├── styles.css
+│       └── script.js
+├── templates/
+│   ├── game_template.html
+│   └── base_template.html
+└── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+└── src/
+    └── (images, logo,etc...)</code></pre>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="../assets/static/pp-perso.js"></script>
+  <script src="../assets/static/pp-load.js"></script>
+  <script src="page.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

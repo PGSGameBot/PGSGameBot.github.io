@@ -1,0 +1,102 @@
+/* GENERAL */
+body {
+  background: var(--game-bg);
+}
+
+#game {
+  background: linear-gradient(to right, #fedc45, #1ed94f);
+}
+
+
+/* ANIMATION DE CHARGEMENT */
+.loading {
+  position: absolute;
+  background: repeating-linear-gradient(90deg, #ccc, #ccc 5%, transparent 5%, transparent 35%);
+  border-radius: 50%;
+  width: 200px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  animation: load-man 1.2s infinite linear;
+}
+
+.loading:before,
+.loading:after {
+  position: absolute;
+  border-radius: 100%;
+  border: 25px solid #fff;
+  margin-top: -25px;
+  top: 50%;
+  left: -25px;
+  content: '';
+}
+
+.loading:before {
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  --close: -90;
+  animation: load-man-chomp 0.35s infinite linear;
+}
+
+.loading:after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  --close: 0;
+  animation: load-man-chomp 0.35s infinite linear;
+}
+
+@keyframes load-man {
+  to {
+    background-position: -200px 0;
+  }
+}
+
+@keyframes load-man-chomp {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(calc(var(--close) * 1deg));
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+
+/* THEME */
+/* --- Clair --- */
+body.light {
+  background: var(--wth-game);
+}
+
+body.light #game {
+  background: var(--wth-gamapp)
+}
+
+/* --- Sombre --- */
+body.dark {
+  background: var(--blk-game);
+}
+
+body.dark #game {
+  background: var(--blk-gamapp)
+}
+
+/* POLICE */
+/* --- Moderne --- */
+body.modern #toggle-instructions-btn,
+body.modern #toggle-sound-settings-btn {
+  font-family: var(--mdn-font);
+}
+
+/* --- Classique --- */
+body.tradi #toggle-instructions-btn,
+body.tradi #toggle-sound-settings-btn {
+  font-family: var(--trd-font);
+}
+
+/* TAILLE */ /* --- Pas disponible --- */

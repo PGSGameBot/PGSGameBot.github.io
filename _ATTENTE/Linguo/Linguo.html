@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application de Traduction</title>
+    <link rel="stylesheet" href="Linguo.css">
+</head>
+<body>
+    <header>
+        <h1>Traducteur Linguo</h1>
+    </header>
+    <main>
+        <div class="translator">
+            <div class="language-selector">
+                <select id="sourceLang"></select>
+                <div id="swapLang" title="Permuter les langues">&#8646;</div>
+                <select id="targetLang"></select>
+            </div>
+            <div class="text-container">
+                <div class="text-input">
+                    <textarea id="sourceText" placeholder="Tapez votre texte ici..."></textarea>
+                    <div class="icons">
+                        <button id="speakSource" title="Parler">&#128266;</button>
+                        <button id="copySource" title="Copier">&#128203;</button>
+                    </div>
+                </div>
+                <div class="text-output">
+                    <textarea id="translatedText" placeholder="Traduction ici..." readonly></textarea>
+                    <div class="icons">
+                        <button id="speakOutput" title="Parler">&#128266;</button>
+                        <button id="copyOutput" title="Copier">&#128203;</button>
+                    </div>
+                </div>
+            </div>
+            <div class="voice-selector">
+                <select id="voiceSelect"></select>
+            </div>
+            <div class="share">
+                <button id="shareBtn" title="Partager">&#128257;</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Traducteur Linguo</p>
+    </footer>
+    <script src="language.js"></script>
+    <script src="Linguo.js"></script>
+</body>
+</html>

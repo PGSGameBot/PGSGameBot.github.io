@@ -1,0 +1,96 @@
+#game-board {
+  display: flex;
+  background-color: var(--wth-clr);
+  border: 1px solid var(--blk-clr);
+  width: 300px;
+  height: 500px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tile {
+  border: 1px solid #999;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.tile:hover {
+  background-color: var(--pop-bg) !important;
+  border-radius: 10px;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.tile.correct {
+  background-color: var(--win-clr);
+}
+
+.tile.incorrect {
+  background-color: var(--del-clr);
+}
+
+#start-btn {
+  display: block;
+  font-family: var(--btn-font);
+  border-radius: 10px;
+  border: none;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: var(--df-text-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#score {
+  font-weight: bold;
+}
+
+#high-score {
+  font-weight: bold;
+  font-size: var(--df-title-size);
+}
+
+#timer-display {
+  color: var(--del-clr);
+  font-size: var(--df-text-size);
+  margin-top: 1em;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+   #game-container {
+    padding: 15px;
+  }
+}
+
+
+/* THEME */
+/* --- Clair --- */
+body.light #game-board {
+  background-color: var(--thm-wth);
+  border: 1px solid var(--thm-blk);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+body.light .tile:hover {
+  background-color: var(--wth-clr) !important;
+}
+
+/* --- Sombre --- */
+body.dark #game-board {
+  background-color: var(--thm-blk);
+  border: 1px solid var(--thm-wth);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+body.dark .tile:hover {
+  background-color: var(--blk-clr) !important;
+}
+
+/* POLICE */ /* --- Pas disponible --- */
+
+/* TAILLE */ /* --- Pas disponible --- */

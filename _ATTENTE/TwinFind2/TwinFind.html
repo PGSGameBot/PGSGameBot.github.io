@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twin Find</title>
+  <link rel="stylesheet" href="TwinFind.css">
+</head>
+
+<body>
+  <h1>Twin Find</h1>
+
+  <div class="controls">
+    <h2>Réglage de jeu</h2>
+    <label for="imageType">Type d'images :</label>
+    <select id="imageType">
+      <option value="animals">Animaux</option>
+      <option value="fruits">Fruits</option>
+      <option value="symbols">Symboles</option>
+      <option value="mixed">Mélange</option>
+    </select>
+
+    <label for="gameMode">Mode de jeu :</label>
+    <select id="gameMode">
+      <option value="simple">Simple</option>
+      <option value="time">Temps</option>
+      <option value="moves">Mouvement</option>
+    </select>
+
+    <label for="preDisplay">Pré-affichage :</label>
+    <select id="preDisplay">
+      <option value="yes">Oui</option>
+      <option value="no">Non</option>
+    </select>
+
+
+    <label for="difficulty">Difficulté :</label>
+    <select id="difficulty">
+      <option value="easy">Facile</option>
+      <option value="medium">Moyen</option>
+      <option value="hard">Difficile</option>
+    </select>
+
+    <button id="startGame">Démarrer le jeu</button>
+  </div>
+
+  <div id="game-info">
+    <p id="game-status"></p>
+  </div>
+
+  <div id="game-board"></div>
+
+  <script src="TwinFind.js"></script>
+</body>
+
+</html>

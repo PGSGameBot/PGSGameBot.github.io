@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <title>Linguo - Traduisez en toute simplicité</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Linguo.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../_src/img/LinguoLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="f">Lingo translator</h1>
+    <div class="wrapper">
+      <div class="text-input">
+        <textarea spellcheck="false" class="from-text" placeholder="Que voulez-vous traduire ?"></textarea>
+        <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Traduction"></textarea>
+      </div>
+      
+      <ul class="controls">
+        <li class="row from">
+          <div class="icons">
+            <i id="from" class="fas fa-volume-up"></i>
+            <i id="from" class="fas fa-copy"></i>
+          </div>
+          <select></select>
+        </li>
+        <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
+        
+        <li class="row to">
+          <select></select>
+          <div class="icons">
+            <i id="to" class="fas fa-volume-up"></i>
+            <i id="to" class="fas fa-copy"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <button>Traduire le texte</button>
+  </div>
+
+  <footer>
+        <p>&copy; 2024 PGSGameBot. Tous droits réservés.</p>
+        <a href="../../index.html" class="back-button"> &larr; Retourner à l'acceuil</a>
+    </footer>
+
+  <script src="countries.js"></script>
+  <script src="Linguo.js"></script>
+
+</body>
+
+</html>

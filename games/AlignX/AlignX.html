@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>AlignX - Le classique Tic-Tac-Toe réinventé</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="AlignX.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-game.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/game-AXLogo.png" type="image/x-icon">
+
+  <meta name="description" content="ALIGNX, Un jeu classique Tic-Tac-Toe">
+  <meta name="keywords" content="ALIGNX, PGB, Jeux, Application, logiciel, Gestion, jeux interactifs, PGS Game Bot, tournois, applications innovantes">
+  <meta name="author" content="Pro Gestion Soft">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PGS GAME BOT - ALIGNX">
+  <meta property="og:description" content="Jouez à AlignX sur PGSGAMEBOT.">
+  <meta property="og:image" content="../../assets/img/pp-repository.png">
+  <meta property="og:url" content="https://PGSGameBot.github.io/games/AlignX/AlignX.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Jouez à AlignX sur PGSGAMEBOT">
+  <meta name="twitter:description" content="Découvrez toutes les applications sur PGSGAMEBOT.">
+  <meta name="twitter:image" content="../../assets/img/pp-repository.png">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <div id="game">
+    <header id="header">
+      <img src="../../assets/img/game-AXLogo.png" alt="Logo AlignX" id="logo">
+      <h1>AlignX</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <div class="perso"></div>
+
+      <button id="toggle-instructions-btn">Afficher les instructions</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>Comment jouer à AlignX</h2>
+        <p><strong>AlignX</strong> est le parfait mélange de stratégie et de simplicité, accessible à tous avec deux
+          modes de jeu dont la possibilité de jouer contre des amis ou l'IA</p>
+
+        <h3>Règles du jeu</h3>
+        <ol>
+          <li><strong>Choisissez le mode de jeu :</strong> Avant de commencer, sélectionnez le mode de jeu :
+            <ul>
+              <li><strong>Mode Versus :</strong> Jouez à deux avec un ami.</li>
+              <li><strong>Mode contre IA :</strong> Jouez seul, mais contre l'IA.</li>
+            </ul>
+          </li>
+
+          <li><strong>Difficulté :</strong> En mode contre IA, vous devez choisir une difficulté. Notez que plus la
+            difficulté est grande, moins vous avez de chance de battre l’IA</li>
+          <li><strong>Incarnation :</strong> Vous incarnez toujours (X), que vous jouez contre l’IA ou avec un ami.
+            Votre adversaire est donc le (O). Votre tour passe par défaut en premier. Il est indiqué en haut du plateau
+            le tour du joueur qui doit passer.</li>
+          <li><strong>Nouvelle partie :</strong> A chaque fin de partie, vous pouvez recommencer une nouvelle partie ou
+            changer de mode. Vos statistiques s’actualisent à chaque fin de partie, consultez-les en bas du plateau</li>
+          <li><strong>Mouvements :</strong> En mode versus, cliquez sur une case vide pour placer votre marque (X) ou
+            (O) dans. Le jeu alternera automatiquement entre les joueurs (X) et (O) le
+            joueur et l'IA, en mode contre IA.</li>
+          <li><strong>Objectif :</strong> Alignez trois de vos marques horizontalement, verticalement ou en
+            diagonale pour gagner la partie.</li>
+          <li><strong>Fin du jeu :</strong> Le jeu se termine lorsqu'un joueur aligne trois marques ou lorsque
+            toutes les cases sont remplies (match nul). Les tuiles gagnantes seront colorées en vert pour (X)
+            et en rouge pour (O). Les cases non colorées restantes afficheront un motif de grille.</li>
+        </ol>
+
+        <h3>Conseils</h3>
+        <ul>
+          <li><strong>Prévoyez les mouvements de votre adversaire :</strong> Essayez de prédire les
+            mouvements de votre adversaire et bloquez leurs tentatives d'alignement tout en planifiant vos
+            propres coups pour former des alignements.</li>
+          <li><strong>Jouez en diagonale :</strong> Utilisez les diagonales comme des opportunités pour
+            aligner trois marques, car elles sont souvent négligées mais très efficaces.</li>
+        </ul>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>AlignX</strong> amusant et éducatif, n'hésitez pas à la partager avec vos amis en
+          utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+        <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+        <h2>Désactiver sons de :</h2>
+        <label><input type="checkbox" id="toggle-move-sound"> Clic</label>
+        <br>
+        <label><input type="checkbox" id="toggle-win-sound"> Victoire</label>
+        <br>
+        <label><input type="checkbox" id="toggle-lose-sound"> Echec</label>
+        <br>
+        <label><input type="checkbox" id="toggle-tie-sound"> Partie nulle</label>
+        <hr>
+        <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <section class="controls">
+        <select id="modeSelect">
+          <option value="twoPlayers">Mode Versus</option>
+          <option value="ai">Mode contre IA</option>
+        </select>
+
+        <select id="difficultySelect" style="display: none;">
+          <option value="easy">Facile</option>
+          <option value="medium">Moyen</option>
+          <option value="hard">Difficile</option>
+        </select>
+
+        <button id="reset" class="uvs-btn">Nouvelle Partie</button>
+      </section>
+
+      <section class="display">
+        Tour de <span class="display-player playerX">X</span>
+      </section>
+
+      <section class="container">
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+        <div class="tile"></div>
+      </section>
+
+      <section class="display announcer hide"></section>
+
+      <section class="stats">
+        <p>Parties jouées : <span id="gamesPlayed">0</span></p>
+        <p>Victoire : <span id="wins">0</span></p>
+        <p>Défaite : <span id="losses">0</span></p>
+        <p>Match nul : <span id="ties">0</span></p>
+      </section>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="../../assets/static/pp-perso.js"></script>
+  <script src="../../assets/static/pp-load.js"></script>
+  <script src="AlignX.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

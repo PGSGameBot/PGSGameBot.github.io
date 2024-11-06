@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>LES JEUX - PGS GAME BOT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../assets/static/com-game.css">
+  <link rel="stylesheet" href="../assets/static/pp-gamapp.css">
+  <link rel="stylesheet" href="../assets/static/pp-root.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../assets/img/pp-Logo.png" type="image/x-icon">
+
+  <meta name="description" content="LES JEUX SUR PGSGAMEBOT, Une plateforme de jeuw interactifs propulsé par PRO GESTION SOFT">
+  <meta name="keywords" content="PGSGAMEBOT, PGB, Jeux, Application, logiciel, Gestion, jeux interactifs, PGS Game Bot, tournois, applications innovantes">
+  <meta name="author" content="Pro Gestion Soft">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PGS GAME BOT - JEUX">
+  <meta property="og:description" content="Découvrez tous les jeux sur PGSGAMEBOT.">
+  <meta property="og:image" content="../assets/img/pp-repository.png">
+  <meta property="og:url" content="https://PGSGameBot.github.io/games/games.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PGS GAME BOT - JEUX">
+  <meta name="twitter:description" content="Découvrez tous les sur PGSGAMEBOT.">
+  <meta name="twitter:image" content="../assets/img/pp-repository.png">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <header id="header">
+    <div class="header-container">
+      <a href="../index.html"><img src="../assets/img/pp-Logo.png" alt="Logo PGSGAMEBOT" id="logo"></a>
+      <div class="header-text">
+        <h1>TOUS LES JEUX</h1>
+      </div>
+    </div>
+
+    <nav></nav>
+  </header>
+
+  <main>
+    <div class="perso"></div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <img id="hero-img" alt="Couerture">
+      <div class="hero-text">
+        <p id="game-intro"></p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Recherche et Filtres -->
+    <div class="search-filters">
+      <input type="text" id="search-bar" placeholder="Rechercher des jeux...">
+
+      <div class="recent-searches" id="recent-searches" style="display: none;">
+        <ul id="recent-searches-list"></ul>
+        <button id="clear-all-searches">Effacer Tout</button>
+      </div>
+
+      <br><br>
+
+      <div class="filters">
+        <select id="filter-games">
+          <option value="all">Tous les jeux</option>
+          <option value="puzzle">Jeu de puzzle</option>
+          <option value="societe">Jeu de société</option>
+          <option value="quiz">Jeu de quiz</option>
+          <option value="memoire">Jeu de mémoire</option>
+        </select>
+
+        <select id="sort-filter">
+          <option value="default">Trier par défaut</option>
+          <option value="alpha-games">Par ordre alphabétique</option>
+        </select>
+
+        <select id="view-selector" class="toggle-view-select">
+          <option value="grille">Grille</option>
+          <option value="liste">Liste</option>
+        </select>
+      </div>
+    </div>
+
+    <section class="games" id="games"></section>
+  </main>
+
+  <footer></footer>
+
+  <!-- Popup -->
+  <div id="rate-popup" class="rate-popup">
+    <div class="popup-content">
+      <span id="rate-close" class="popup-close">&times;</span>
+      <img src="../../assets/img/pp-avis.png" alt="Donnez un avis" id="poplogo">
+      <h2>Comment évaluez-vous cette plateforme ?</h2>
+
+      <div id="emoji-container" class="emoji-container">
+        <span class="emoji" data-value="😠 Grrr...">😠</span>
+        <span class="emoji" data-value="😟 Hmm...">😟</span>
+        <span class="emoji" data-value="😐 Bof..">😐</span>
+        <span class="emoji" data-value="😊 Yay !">😊</span>
+        <span class="emoji" data-value="😍 Wow !">😍</span>
+      </div>
+
+      <textarea id="comment" placeholder="Dites-nous plus sur votre avis (200 caractères au maximum) [Facultatif]"
+        maxlength="200" rows="5" style="display: none;"></textarea>
+
+      <button id="submit-rating-btn" style="display: none;">Soumettre</button>
+    </div>
+  </div> <!-- Avis -->
+
+  <script src="../assets/static/pp-load.js"></script>
+  <script src="../assets/static/pp-perso.js"></script>
+  <script src="../assets/static/pp-gamapp.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

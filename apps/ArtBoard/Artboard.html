@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Art Board - Laissez libre cours à votre créativité.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="Artboard.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-app.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/app-ABLogo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <div id="app">
+    <header id="header">
+      <img src="../../assets/img/app-ABLogo.png" alt="Logo Art Board" id="logo">
+      <h1>Art Board</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <div class="perso"></div>
+
+      <button id="toggle-instructions-btn">Afficher la note</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>A savoir sur Art Board :</h2>
+        <p><strong>Art Board</strong> est votre ardoise numérique intuitive pour laisser libre cours à votre
+          créativité : dessinez, esquissez et exprimez vos idées en quelques gestes grâce à une interface
+          fluide et des outils personnalisables. Idéale pour les enfants, les artistes ou ceux qui aiment
+          simplement gribouiller. Voici quelques instructions pour vous aider à utiliser toutes les
+          fonctionnalités de l'ardoise :</p>
+
+        <h3>Personnaliser l'ardoise</h3>
+        <ol>
+          <li><strong>Couleur de fond :</strong> Choisissez une couleur de fond pour l'ardoise en utilisant le
+            sélecteur de couleur.</li>
+          <li><strong>Motif de fond :</strong> Sélectionnez un motif pour l'ardoise à partir des options
+            disponibles dans le menu déroulant.</li>
+        </ol>
+
+        <h3>Dessiner</h3>
+        <ol>
+          <li><strong>Pinceau :</strong> Par défaut, le pinceau est actif. Utilisez-le pour dessiner librement
+            sur l'ardoise. Sélectionnez la couleur et ajustez la taille du pinceau. Assurez-vous que le
+            bouton du pinceau est activé (bordure bleue) pour dessiner.</li>
+          <li><strong>Formes :</strong> Vous pouvez choisir parmi plusieurs formes (rectangle, triangle,
+            cercle, losange) dans le menu déroulant. Lorsque vous sélectionnez une forme et touchez
+            l'ardoise, la forme choisie apparaîtra.</li>
+          <li><strong>Gomme :</strong> Pour effacer des parties du dessin, cliquez sur le bouton de la gomme.
+            Vous pouvez ajuster la taille de la gomme. Le bouton de la gomme sera activé (bordure bleue)
+            lorsqu'il est sélectionné.</li>
+          <li><strong>Outil actif :</strong> Vous disposez des outils d’ajouts (Pinceau e Formes) et des
+            outils de suppression (Gomme et tout effacer). Le lot d’outil actif est celui encadré en bleu.
+            L’outil non actif sera encadré d’un rouge. Après que vous aurez choisi la gomme pour effectuer
+            une action, cliquez sur une élément ou sur le cadre d’outils d’ajout pour le sélectionner de
+            nouveau. </li>
+        </ol>
+
+        <h3>Historique</h3>
+        <ol>
+          <li><strong>Annuler :</strong> Cliquez sur le bouton "Annuler" pour revenir à l'étape précédente de
+            votre dessin.</li>
+          <li><strong>Rétablir :</strong> Cliquez sur le bouton "Rétablir" pour réappliquer les actions
+            annulées.</li>
+          <li><strong>Limite :</strong> Les boutons d’historiques ne prennent pas en charges l’annulation ou
+            le rétablissement du tableau après l’utilisation du bouton ‘’Tout Effacer‘’.</li>
+        </ol>
+
+        <h3>Enregistrer et Partager</h3>
+        <ol>
+          <li><strong>Sauvegarder :</strong> Cliquez sur le bouton "Sauvegarder" pour enregistrer votre
+            dessin. Le nom du fichier inclura la date et l'heure de l'enregistrement.</li>
+          <li><strong>Partager :</strong> Cliquez sur le bouton "Partager" pour partager votre dessin.</li>
+        </ol>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Art Board</strong> amusante et utile, n'hésitez pas à la partager avec vos
+          amis
+          en utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+        <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+        <h2>Désactiver sons de :</h2>
+        <label><input type="checkbox" id="toggle-history-sound"> Historique</label>
+        <br>
+        <label><input type="checkbox" id="toggle-clr-sound"> Effacer tout</label>
+        <hr>
+        <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <div class="top">
+        <div class="icons">
+          <button id="undo" title="Annuler">&#9664; Annuler</button>
+          <button id="redo" title="Rétablir">Rétablir &#9654;</button>
+        </div>
+
+        <div class="controls">
+          <label for="backgroundColor">Ardoise :</label>
+          <input type="color" id="backgroundColor" value="#ffffff">
+
+          <select id="backgroundPattern" class="background-pattern">
+            <option value="default">Défaut</option>
+            <option value="pattern1">Lignes</option>
+            <option value="pattern2">Points</option>
+            <option value="pattern3">Grilles</option>
+            <option value="pattern4">Tissage</option>
+          </select>
+        </div>
+      </div>
+
+      <canvas id="ardoise" width="800" height="600"></canvas>
+
+      <div class="controls">
+        <div class="add-controls">
+          <label for="couleur">Pinceau</label>
+          <input type="color" id="couleur" value="#000000">
+
+          <label for="taille">Taille</label>
+          <input type="range" id="taille" min="1" max="50" value="5">
+
+          <label for="formes">Formes</label>
+          <select id="formes">
+            <option value="none">Aucune</option>
+            <option value="rectangle">Rectangle</option>
+            <option value="triangle">Triangle</option>
+            <option value="cercle">Cercle</option>
+            <option value="losange">Losange</option>
+          </select>
+        </div>
+
+        <div class="remove-controls">
+          <button id="gomme" title="Gomme" class="inactive-tool">Gomme &#10006;</button>
+
+          <label for="tailleGomme">Taille</label>
+          <input type="range" id="tailleGomme" min="1" max="50" value="10">
+
+          <button id="clear" title="Effacer tout">Effacer tout &#128465;</button>
+        </div>
+      </div>
+
+      <div class="center-controls">
+        <button id="save" title="Sauvegarder">&#128190; Sauvegarder</button>
+        <button id="share" title="Partager">&#x27A5; Partager</button>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="../../assets/static/pp-perso.js"></script>
+  <script src="../../assets/static/pp-load.js"></script>
+  <script src="Artboard.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

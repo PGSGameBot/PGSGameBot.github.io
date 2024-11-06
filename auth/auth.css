@@ -1,0 +1,308 @@
+/* Style général pour inscription et connexion */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+#logo {
+    width: 50px;
+    height: auto;
+}
+
+/* Menu */
+nav {
+    margin-top: 15px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.menu li a:hover {
+    background-color:var(--wth-clr);
+    color: #000;
+}
+
+.menu li .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.menu li .submenu li {
+    margin-bottom: 5px;
+}
+
+.menu li .submenu li a {
+    padding: 5px 10px;
+    display: block;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu-icon::before {
+    content: '\2630';
+}
+
+.menu.show + .menu-icon::before {
+    content: '✖';
+    transform: rotate(45deg);
+}
+
+nav ul li.active-page a {
+    font-weight: bold;
+    pointer-events: none;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #666;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        padding: 20px 0;
+        border-radius: 10px;
+    }
+
+    .menu li {
+        width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 900px;
+    margin: 5px auto;
+    background: linear-gradient(to right, #fff, #d2d2d2);
+    box-shadow: 0 2px 5px #000;
+    border-radius: 10px;
+    width: 80%;
+}
+
+main h2 {
+    color: #007BFF;
+    margin-top: 0;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:var(--wth-clr);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+main a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* Pied de page */
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.back-button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    font-weight: bolder;
+    color: #00f2fe;
+}
+
+
+/* Popup */
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background:var(--wth-clr);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    position: relative;
+}
+
+.popup-content h2 {
+    color: #08568b;
+}
+
+.popup-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+}
+
+.popup-close:hover {
+    font-weight: bolder;
+    color: #f83600;
+}
+
+#poplogo {
+    width: 100px;
+    height: auto;
+}
+
+.pop-link {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pop-link .home {
+    color: #f67050;
+}
+
+.pop-link .home:hover {
+    color: #ee4d26;
+}
+
+.pop-link .profil {
+    color: #4758fe;
+}
+
+.pop-link .profil:hover {
+    color: #212fb9;
+}

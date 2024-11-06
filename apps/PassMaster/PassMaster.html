@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Pass Master - Votre allié pour créer des mots de passe uniques et robustes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="PassMaster.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-app.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/app-PMLogo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app">
+    <header id="header">
+      <img src="../../assets/img/app-PMLogo.png" alt="Logo Pass Master" id="logo">
+      <h1>Pass Master</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <button id="toggle-instructions-btn">Afficher la note</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>A savoir sur Pass Master :</h2>
+        <p><strong>Pass Master</strong> vous permet de créer des mots de passe ultra-sécurisés en un clic grâce à son
+          générateur de haute performance. Vous n'aurez plus à vous soucier des combinaisons faibles ou faciles à
+          deviner.</p>
+
+        <h3>Génération de mot de passe</h3>
+        <ol>
+          <li><strong>Longueur :</strong> Spécifiez la longueur désirée du mot de passe en entrant une valeur entre 4 et
+            20 dans le champ Longueur.</li>
+          <li><strong>Expiration :</strong> Définissez la durée de validité du mot de passe en jours. Le générateur vous
+            indiquera la prochaine date à laquelle vous changerez votre mot de passe.</li>
+          <li><strong>Type de mot de passe :</strong> Définissez le type du mot de passe à générer souhaité.</li>
+          <ul>
+            <li><strong>À Définir : :</strong> Un mot de passe aléatoire comprenant des majuscules, minuscules,
+              chiffres.</li>
+            <li><strong>Passe lisible :</strong> Un mot de passe lisible composé de mots sélectionnés pour faciliter la
+              mémorisation.</li>
+            <li><strong>Phrase de passe :</strong> Une série de mots aléatoires pour une meilleure sécurité et une
+              mémorisation plus facile.</li>
+          </ul>
+        </ol>
+
+        <h3>Options de caractères</h3>
+        <ol>
+          <li><strong>Maj :</strong> Inclure des lettres majuscules dans le mot de passe.</li>
+          <li><strong>Min :</strong> Inclure des lettres minuscules dans le mot de passe.</li>
+          <li><strong>Chiffres :</strong> Inclure des chiffres dans le mot de passe.</li>
+          <li><strong>Caract. spéc. :</strong> Inclure des caractères spéciaux comme !@#$%^&*() dans le mot de passe.
+          </li>
+        </ol>
+
+        <h3>Mode Sécurisé</h3>
+        <ol>
+          <li><strong>Affichage du Mot de passe :</strong> Utilisez le bouton 👁 pour masquer ou afficher le mot de
+            passe généré en fonction de vos préférences de sécurité.</li>
+        </ol>
+
+        <h3>Historique des mots de passe</h3>
+        <ol>
+          <li>Vos cinq (05) derniers mots de passe générés sont enregistrés dans l'historique pour un accès rapide
+            ultérieur.</li>
+          <li>Par défaut masquer, vous pouvez l'afficher ou le masquer à nouveau en utilisant le bouton
+            "Afficher/Masquer l'historique".</li>
+          <li>Cliquez sur un mot de passe dans l'historique pour le réutiliser.</li>
+        </ol>
+
+        <h3>Copie et Sauvegarde</h3>
+        <ol>
+          <li><strong>Copier :</strong> Cliquez sur le bouton "Copier" pour copier le mot de passe généré dans votre
+            presse-papiers.</li>
+          <li><strong>Enregistrer :</strong> Enregistrez vos mots de passe générés dans un fichier texte en cliquant
+            sur le bouton "Sauvegarder les mots de passe".</li>
+        </ol>
+
+        <div class="important">
+          <h3>Note Importante !</h3>
+          <p>Pour un usage sérieux ou professionnel, nous vous déconseillons les Phrases de passe à cause du nombre
+            limité de mot que nos algorithmes sont capables de générés actuellement. <br>
+            Ce générateur peut parfois être instable ou se comporter de façon inattendu. <br>
+            Nous continuons à travailler sur les scripts pour l’améliorer afin de le stabiliser totalement.
+          </p>
+        </div>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Pass Master</strong> amusant et utile, n'hésitez pas à la partager avec vos amis en
+          utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+          <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+          <h2>Désactiver sons de :</h2>
+          <label><input type="checkbox" id="toggle-copy-sound"> Copier</label>
+          <br>
+          <label><input type="checkbox" id="toggle-gen-sound"> Générer</label>
+          <br>
+          <label><input type="checkbox" id="toggle-down-sound"> Télécharger</label>
+          <hr>
+          <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <div class="container">
+        <!-- Affichage du mot de passe généré -->
+        <div class="password-display">
+          <input type="text" id="generated-password" readonly>
+          <button id="copy-btn" disabled>Copier</button>
+        </div>
+
+        <div class="history">
+          <h2>Historique</h2>
+          <button id="toggle-history-btn" class="btn-sf">Afficher l'historique</button>
+          <ul id="history-list" style="display: none;"></ul>
+        </div>
+
+        <!-- Contrôles de génération -->
+        <div class="controls">
+          <div class="passlenght">
+            <label for="length">Longueur :</label>
+            <input type="number" id="length" value="12" min="4" max="20">
+
+            <label for="validity">Validité :</label>
+            <select id="validity">
+              <option value="non">Non</option>
+              <option value="oui">Oui</option>
+            </select>
+
+            <label for="expiration" id="expiration-label" style="display:none;">Expiration (en jour) :</label>
+            <input type="number" id="expiration" value="30" min="1" style="display:none;">
+          </div>
+
+          <div class="passetype">
+            <input type="radio" id="todef" name="passetype" value="todef">
+            <label for="todef">A définir</label>
+
+            <input type="radio" id="readable" name="passetype" value="readable">
+            <label for="readable">Passe lisible</label>
+
+            <input type="radio" id="passphrase" name="passetype" value="passphrase">
+            <label for="passphrase">Phrase de passe</label>
+          </div>
+
+          <div class="passedef">
+            <input type="checkbox" id="uppercase">
+            <label for="uppercase">Maj</label>
+
+            <input type="checkbox" id="lowercase">
+            <label for="lowercase">Min</label>
+
+            <input type="checkbox" id="numbers">
+            <label for="numbers">Chiffres</label>
+
+            <input type="checkbox" id="symbols">
+            <label for="symbols">Caract. spéc.</label>
+          </div>
+
+          <div class="secure-mode">
+            <input type="checkbox" id="secure-mode">
+            <label for="secure-mode">Mode sécurisé</label>
+            <button id="toggle-password-visibility" class="btn-sf">👁️</button>
+          </div>
+
+          <button id="generate-btn">Générer le mot de passe</button>
+        </div>
+
+        <div>
+          <div class="strength-indicator">
+            <p>Sécurité : <span id="strength-text">-</span></p>
+          </div>
+
+          <button id="save-btn" disabled>&#128190; Sauvegarder les mots de passe</button>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="PassMaster.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

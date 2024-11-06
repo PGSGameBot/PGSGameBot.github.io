@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunSnake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RunSnake</h1>
+    </header>
+
+    <main>
+        <div id="mode-container">
+            <h2>Choisissez un mode de jeu</h2>
+            <button id="classic-mode">Mode Classique</button>
+            <button id="survival-mode">Mode Survie</button>
+            <button id="puzzle-mode">Mode Puzzle</button>
+        </div>
+
+        <div id="start-container" style="display: none;">
+            <button id="start-game">Commencer</button>
+        </div>
+
+        <div id="resume-container" style="display: none;">
+            <button id="resume-game">Reprendre</button>
+        </div>
+
+        <div id="game-area" style="display: none;">
+            <canvas id="game-canvas"></canvas>
+            <div id="virtual-keyboard">
+                <button id="up" class="arrow">↑</button>
+                <div>
+                    <button id="left" class="arrow">←</button>
+                    <button id="down" class="arrow">↓</button>
+                    <button id="right" class="arrow">→</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

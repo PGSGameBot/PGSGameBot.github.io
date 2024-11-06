@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Inscription - PGSGameBot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="auth.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="../assets\img\pp-Logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container">
+            <a href="../index.html" class="back-button"><img src="../assets\img\pp-Logo.png" alt="Logo PGSGAMEBOT"
+                    id="logo"></a>
+            <div class="header-text">
+                <h1>CONNEXION</h1>
+            </div>
+        </div>
+
+        <nav>
+            <ul id="menu" class="menu">
+                <li><a href="register.html">Inscription</a></li>
+                <li class="active-page"><a href="login.html">Connexion</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon"></div>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Créez votre compte dès aujourd'hui !</h2>
+        <p>Rejoignez notre communauté et accédez à tous nos services en quelques minutes. <br>
+            Créer un compte vous permettra de personnaliser votre expérience, de suivre vos activités, et de profiter de
+            fonctionnalités exclusives.</p>
+
+        <form id="register-form">
+            <div id="error-message" style="color: red; display: none;"></div>
+
+            <label for="firstName">Vos prénoms :</label>
+            <input type="text" id="firstName" placeholder="Prénoms" required>
+            <br>
+
+            <label for="lastName">Votre nom :</label>
+            <input type="text" id="lastName" placeholder="Nom" required>
+            <br>
+
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" placeholder="Nom d'utilisateur" required>
+            <br>
+
+            <label for="email">Adresse email :</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <br>
+
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" placeholder="Mot de passe" required>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+
+        <p>Déjà membre ? <a href="login.html">Connectez-vous ici.</a></p>
+
+
+        <!-- Popup -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="popup-close" class="popup-close">&times;</span>
+                <img src="../assets\img\pp-Logo.png" alt="En développement" id="poplogo">
+                <h2>Inscription impossible</h2>
+                <p>Nous réglons encore quelques petits détails sur cette page <br>
+                    D’ici là, tout sera bon et vous pourrez vous inscrire facilement</p>
+
+                <div class="pop-link">
+                    <a href="../index.html" class="home">&larr; Retour à l’accueil</a>
+                    <a href="../profil/profil.html" class="profil">Aller au profil provisoire &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PGSGameBot. Tous droits réservés.</p>
+        <a href="../index.html" class="back-button"> &larr; Retourner à l'accueil</a>
+    </footer>
+
+    <script src="register.js"></script>
+    <script src="auth.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Tickle Time - Une alarme drôle mais éfficace</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="TickleTime.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-app.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/app-TTLogo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app">
+    <header id="header">
+      <img src="../../assets/img/app-TTLogo.png" alt="Logo tickle time" id="logo">
+      <h1>Tickle Time</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <button id="toggle-instructions-btn">Afficher la note</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>A savoir sur Tickle Time :</h2>
+
+        <p>
+          <strong>Tickle Time</strong> est une application d'alarme qui vous propose une expérience unique et amusante
+          pour vous rappeler vos tâches importantes.
+          Bien que cette alarme soit conçue pour être simple et efficace, elle ne se prend pas trop au sérieux. Voici
+          quelques points à connaître :
+        </p>
+
+        <ul>
+          <li><strong>Une alarme pas comme les autres :</strong> Tickle Time ne garantit pas de vous réveiller à coup
+            sûr, mais elle sait parfaitement comment vous divertir avec son timing inattendu et son son distinctif.</li>
+
+          <li><strong>Réglage de l'alarme :</strong> Pour régler l'alarme, sélectionnez l'heure, la minute, la seconde,
+            et le moment de la journée (AM/PM). Assurez-vous de tout définir correctement avant d'activer
+            l'alarme.</li>
+
+          <li><strong>Désactivation de l'alarme :</strong> Une fois l'alarme déclenchée, appuyez sur le bouton "Arrêtez
+            l’alarme" pour la désactiver. Vous pouvez ensuite en régler une nouvelle si nécessaire.</li>
+
+          <li><strong>Sonnerie personnalisée :</strong> Tickle Time utilise une sonnerie unique pour vous alerter. Cette
+            sonnerie peut être répétée en boucle jusqu'à ce que vous décidiez de l'arrêter.</li>
+
+          <li><strong>Humour et surprise :</strong> Ne soyez pas surpris si Tickle Time vous fait sourire par son
+            approche décalée. C'est une alarme qui aime apporter un peu de légèreté à votre journée.</li>
+        </ul>
+
+        <p>Profitez de Tickle Time pour ajouter une touche d'humour à vos rappels quotidiens, et souvenez-vous : le
+          sourire est aussi important que la ponctualité !</p>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Tickle Time</strong> amusante et utile, n'hésitez pas à la partager avec vos amis en
+          utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+          <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+          <h2>Désactiver sons de :</h2>
+          <label><input type="checkbox" id="toggle-select-sound"> Selection</label>
+          <br>
+          <label><input type="checkbox" id="toggle-miniteur-sound" checked> Minuteur</label>
+          <br>
+          <label><input type="checkbox" id="toggle-alarm-sound"> Alarme</label>
+          <hr>
+          <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <div class="container">
+        <img src="../../assets/img/app-TTLogo.png" alt="Image tickle time.png" width="35%">
+        <h1>
+          <span class="hours clock">00</span> :
+          <span class="mins clock">00</span> :
+          <span class="secs clock">00
+          </span><span class="ampms clock">AM</span>
+        </h1>
+
+        <div class="content">
+          <div class="column">
+            <select>
+              <option value="Hour">Heure</option>
+            </select>
+          </div>
+
+          <div class="column">
+            <select>
+              <option value="Min">Minute</option>
+            </select>
+          </div>
+
+          <div class="column">
+            <select>
+              <option value="Sec">Seconde</option>
+            </select>
+          </div>
+
+          <div class="column">
+            <select>
+              <option value="AM/PM">Moment</option>
+            </select>
+          </div>
+        </div>
+        <button class="set">Réglez l’alarme</button>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="TickleTime.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

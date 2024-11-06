@@ -1,0 +1,635 @@
+/* ----- CHOISIR ------ */
+/* --- Sliding-tiles (0 div) CHOIX ACCEUIL --- */
+.loading:before,
+.loading:after {
+   position: absolute;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+ content: '';
+  animation: sliding-tile 1.25s infinite linear;
+}
+
+.loading:after {
+  animation: sliding-tile 1.25s -0.625s infinite linear;
+}
+
+@keyframes sliding-tile {
+  0% {
+    transform: translate(-50%, -50%) translate(-50%, -50%);
+  }
+
+  25% {
+    transform: translate(-50%, -50%) translate(50%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, -50%) translate(50%, 50%);
+  }
+
+  75% {
+    transform: translate(-50%, -50%) translate(-50%, 50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) translate(-50%, -50%);
+  }
+}
+
+
+/* --- Load-man (0 div) CHOIX GAME --- */
+.loading {
+  position: absolute;
+  background: repeating-linear-gradient(90deg, #ccc, #ccc 5%, transparent 5%, transparent 35%);
+  border-radius: 50%;
+  width: 200px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  animation: load-man 1.2s infinite linear;
+}
+
+.loading:before,
+.loading:after {
+  position: absolute;
+  border-radius: 100%;
+  border: 25px solid #fff;
+  margin-top: -25px;
+  top: 50%;
+  left: -25px;
+  content: '';
+}
+
+.loading:before {
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  --close: -90;
+  animation: load-man-chomp 0.35s infinite linear;
+}
+
+.loading:after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  --close: 0;
+  animation: load-man-chomp 0.35s infinite linear;
+}
+
+@keyframes load-man {
+  to {
+    background-position: -200px 0;
+  }
+}
+
+@keyframes load-man-chomp {
+  0% {
+    transform: rotate(-45deg);
+  }
+
+  50% {
+    transform: rotate(calc(var(--close) * 1deg));
+  }
+
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+
+/* --- Sliding-tiles (0 div) CHOIX APP --- */
+.loading {
+  position: absolute;
+  border: 4px solid #fff;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  animation: tile-rotate 4s linear infinite;
+}
+
+.loading:before,
+.loading:after {
+  position: absolute;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  content: '';
+  animation: sliding-tile 2s infinite linear;
+}
+
+.loading:after {
+  animation: sliding-tile-2 2s infinite linear;
+}
+
+@keyframes sliding-tile {
+  0% {
+    transform: translate(-50%, -50%) translate(-50%, -50%);
+  }
+
+  10% {
+    transform: translate(-50%, -50%) translate(50%, -50%);
+  }
+
+  20%,
+  80% {
+    transform: translate(-50%, -50%) translate(50%, 50%);
+  }
+
+  90% {
+    transform: translate(-50%, -50%) translate(-50%, 50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) translate(-50%, -50%);
+  }
+}
+
+@keyframes sliding-tile-2 {
+  0% {
+    transform: translate(-50%, -50%) translate(50%, 50%);
+  }
+
+  10% {
+    transform: translate(-50%, -50%) translate(-50%, 50%);
+  }
+
+  20%,
+  80% {
+    transform: translate(-50%, -50%) translate(-50%, -50%);
+  }
+
+  90% {
+    transform: translate(-50%, -50%) translate(50%, -50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) translate(50%, 50%);
+  }
+}
+
+@keyframes tile-rotate {
+  0%,
+  20% {
+    transform: perspective(50px) rotateY(0deg);
+  }
+
+  30%,
+  70% {
+    transform: perspective(50px) rotateY(180deg);
+  }
+
+  80%,
+  100% {
+    transform: perspective(50px) rotate(360deg);
+  }
+}
+
+
+/* --- Sliding-tiles (0 div) CHOIX PAGE --- */
+.loading {
+  display: block;
+  background: #fff;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  content: '';
+  transform-origin: bottom center;
+  animation: bounce 0.5s cubic-bezier(0.6, 0.3, 0.8, 0.5) alternate infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0, -150%) scaleX(1) scaleY(1);
+  }
+
+  100% {
+    transform: translate(0, 150%) scaleX(1.1) scaleY(0.9);
+  }
+}
+
+
+/* --- Sliding-tiles (0 div) CHOIX AUTH --- */
+.loading {
+  display: block;
+  border-radius: 100%;
+  width: 5px;
+  height: 5px;
+  box-shadow: 20px 0 0 5px #fff, -20px 0 0 5px #fff;
+  content: '';
+  animation: spin 1s infinite;
+}
+
+@-webkit-keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* --- Spin (0 div) CHOIX PROFIL --- */
+.loading {
+  border-radius: 8px;
+  box-shadow: 20px 0px 0 -4px #fff, 12.4698px 15.63663px 0 -4px #fff, -4.45042px 19.49856px 0 -3px #fff, -18.01938px 8.67767px 0 -2px #fff, -18.01938px -8.67767px 0 -1px #fff, -4.45042px -19.49856px 0 1px #fff, 12.4698px -15.63663px 0 2px #fff;
+  width: 8px;
+  height: 8px;
+  content: '';
+  animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ----- RESERVE ----- */
+/* --- Wind-up (0 div) RESERVE --- */
+.loading {
+  display: block;
+  border: 6px solid #fff;
+   width: 50px;
+  height: 50px;
+  content: '';
+  animation: wind-up 3s infinite;
+}
+
+@keyframes wind-up {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10%,
+  15% {
+    transform: rotate(-90deg);
+  }
+
+  20%,
+  25% {
+    transform: rotate(-180deg);
+  }
+
+  30%,
+  35% {
+    transform: rotate(-270deg);
+  }
+
+  40%,
+  50% {
+    transform: rotate(-360deg);
+  }
+
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+
+/* --- Hourglass (0 div) RESERVE --- */
+.loading {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  animation: hourglass-container 4s infinite;
+}
+
+.loading:after,
+.loading:before {
+  background-image: linear-gradient(0deg, transparent, transparent 50%, blue 50%, black);
+  position: absolute;
+  border: 4px solid #fff;
+  background-size: 100% 300%;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  content: '';
+  animation: hourglass 4s ease-in-out infinite;
+}
+
+.loading:after {
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+}
+
+.loading:before {
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+  animation-direction: reverse;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+
+@keyframes hourglass {
+
+  0%,
+  10% {
+    background-position: 0 90%;
+  }
+
+  40%,
+  60% {
+    background-position: 0 10%;
+  }
+
+  90%,
+  100% {
+    background-position: 0 -70%;
+  }
+}
+
+@keyframes hourglass-container {
+
+  0%,
+  40% {
+    transform: rotate(-180deg);
+  }
+
+  50%,
+  90% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+
+/* --- Half-ring (0 div) RESERVE --- */
+.loading {
+  display: block;
+  border-radius: 10px;
+  box-shadow: 25px 0px 0 0 rgba(255, 255, 255, 0.2), 20.22542px 14.69463px 0 0 rgba(255, 255, 255, 0.4), 7.72542px 23.77641px 0 0 rgba(255, 255, 255, 0.6), -7.72542px 23.77641px 0 0 rgba(255, 255, 255, 0.8), -20.22542px 14.69463px 0 0 #fff;
+  width: 10px;
+  height: 10px;
+  content: '';
+  animation: half-ring 1s infinite linear;
+}
+
+@keyframes half-ring {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* --- Slide-in (3 div) RESERVE --- */
+.loading div {
+  position: absolute;
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  opacity: 0;
+  animation: slide-in 1.5s infinite;
+}
+
+.loading div:nth-of-type(1) {
+  animation-delay: 0.5s;
+  margin-left: -35px;
+}
+
+.loading div:nth-of-type(2) {
+  animation-delay: 1s;
+  margin-left: -10px;
+}
+
+.loading div:nth-of-type(3) {
+  animation-delay: 1.5s;
+  margin-left: 15px;
+}
+
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-300%);
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(300%);
+  }
+}
+
+
+/* --- Dominoes (5 div) RESERVE --- */
+.loading {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 10px);
+  height: 40px;
+}
+
+.loading div {
+  background-color: #fff;
+  opacity: 0;
+  --rotation: 68;
+  transform-origin: bottom right;
+}
+
+.loading div:nth-child(1) {
+  animation: dominoes 1s 0.2s infinite ease;
+}
+
+.loading div:nth-child(2) {
+  animation: dominoes 1s 0.4s infinite ease;
+}
+
+.loading div:nth-child(3) {
+  animation: dominoes 1s 0.6s infinite ease;
+}
+
+.loading div:nth-child(4) {
+  animation: dominoes 1s 0.8s infinite ease;
+}
+
+.loading div:nth-child(5) {
+  --rotation: 90;
+  animation: dominoes 1s 1s infinite ease;
+
+}
+
+@keyframes dominoes {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+
+  60% {
+    transform: rotate(calc(var(--rotation) * 1deg));
+  }
+
+  90%,
+  100% {
+    opacity: 0;
+    transform: rotate(calc(var(--rotation) * 1deg));
+  }
+}
+
+
+/* --- Flippers (5 div) RESERVE --- */
+.loading {
+  display: grid;
+  height: 20px;
+  grid-template-columns: repeat(5, 20px);
+  grid-gap: 5px;
+}
+
+.loading div {
+  background-color: #fff;
+  animation: flippers calc(1.25 * 1s) calc(var(--delay) * 1s) infinite ease;
+
+}
+
+.loading div:nth-of-type(1) {
+  --delay: 0.25;
+}
+
+.loading div:nth-of-type(2) {
+  --delay: 0.5;
+}
+
+.loading div:nth-of-type(3) {
+  --delay: 0.75;
+}
+
+.loading div:nth-of-type(4) {
+  --delay: 1;
+}
+
+.loading div:nth-of-type(5) {
+  --delay: 1.25;
+}
+
+@keyframes flippers {
+  0% {
+    transform: perspective(40px) rotateY(-180deg);
+  }
+
+  50% {
+    transform: perspective(40px) rotateY(0deg);
+  }
+}
+
+
+/* --- Building-blocks (7 div) RESERVE --- */
+.loading {
+  position: relative;
+}
+
+.loading div {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.loading div:after {
+  display: block;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  content: '';
+  animation: building-blocks 2.1s ease infinite backwards;
+}
+
+.loading div:nth-child(1) {
+  transform: translate(-50%, -50%) translate(60%, 120%);
+}
+
+.loading div:nth-child(2) {
+  transform: translate(-50%, -50%) translate(-60%, 120%);
+}
+
+.loading div:nth-child(3) {
+  transform: translate(-50%, -50%) translate(120%, 0);
+}
+
+.loading div:nth-child(4) {
+  transform: translate(-50%, -50%);
+}
+
+.loading div:nth-child(5) {
+  transform: translate(-50%, -50%) translate(-120%, 0);
+}
+
+.loading div:nth-child(6) {
+  transform: translate(-50%, -50%) translate(60%, -120%);
+}
+
+.loading div:nth-child(7) {
+  transform: translate(-50%, -50%) translate(-60%, -120%);
+}
+
+.loading div:nth-child(1):after {
+  animation-delay: 0.15s;
+}
+
+.loading div:nth-child(2):after {
+  animation-delay: 0.3s;
+}
+
+.loading div:nth-child(3):after {
+  animation-delay: 0.45s;
+}
+
+.loading div:nth-child(4):after {
+  animation-delay: 0.6s;
+}
+
+.loading div:nth-child(5):after {
+  animation-delay: 0.75s;
+}
+
+.loading div:nth-child(6):after {
+  animation-delay: 0.9s;
+}
+
+.loading div:nth-child(7):after {
+  animation-delay: 1.05s;
+}
+
+@keyframes building-blocks {
+
+  0%,
+  20% {
+    opacity: 0;
+    transform: translateY(-300%);
+  }
+
+  30%,
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  90%,
+  100% {
+    opacity: 0;
+    transform: translateY(300%);
+  }
+}

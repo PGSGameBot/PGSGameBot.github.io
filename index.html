@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>PGS GAME BOT - Jouez, collectez des points, et divertissez-vous.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/static/pp-root.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="assets/img/pp-Logo.png" type="image/x-icon">
+
+  <meta name="description" content="Découvrez PGSGAMEBOT, Une plateforme de jeuw interactifs propulsé par PRO GESTION SOFT">
+  <meta name="keywords" content="PGSGAMEBOT, PGB, Jeux, Application, logiciel, Gestion, jeux interactifs, PGS Game Bot, tournois, applications innovantes">
+  <meta name="author" content="Pro Gestion Soft">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="PGS GAME BOT">
+  <meta property="og:description" content="Jouez, collectez des points, et divertissez-vous.">
+  <meta property="og:image" content="assets/img/pp-repository.png">
+  <meta property="og:url" content="https://PGSGameBot.github.io">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PGS GAME BOT">
+  <meta name="twitter:description" content="Jouez, collectez des points, et divertissez-vous.">
+  <meta name="twitter:image" content="assets/img/pp-repository.png">
+
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.fedapay.com/checkout.js?v=1.1.7"></script> <!-- Fedapay Checkout-->
+  <script async src=https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9682293308540812
+    crossorigin="anonymous"></script> <!-- Google ads-->
+</head>
+
+<body>
+  <div id="loader" class="loader"></div>
+
+  <header>
+    <div class="header-container">
+      <img src="assets/img/pp-Logo.png" alt="Logo PGSGAMEBOT" id="logo">
+      <div class="header-text">
+        <h1 class="notranslate">PGS GAME BOT</h1>
+      </div>
+    </div>
+
+    <nav></nav>
+  </header>
+
+  <main>
+    <div class="perso"></div>
+
+    <!-- Annonce -->
+    <div class="announcement-bar">
+      <div class="announcement-text">
+        <p>Nous rencontrons un problème avec l’affichage des recherches récentes. Si au chargement de la page, les
+          recherches récentes s’affichent, veuillez cliquer dans la barre de recherche puis dans le vide pour le fermer.
+          Vous pouvez également supprimer toutes les recherches récentes pour l’empêcher de s’afficher. Nous allons
+          corriger ce problème bientôt.</p>
+      </div>
+      <button class="close-announce" onclick="closeAnnouncement()">X</button>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <img id="hero-img" alt="Couerture">
+      <div class="hero-text">
+        <h1>😍 Holla, explorateur du numérique !</h1>
+        <p> Ravi de te revoir ici ! Que tu sois en quête de défis intellectuels avec nos jeux ou
+          que tu aies besoin d'outils pratiques, tu es au bon endroit.</p>
+        <p id="hero-paragraph"></p>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Recherche et Filtres -->
+    <div class="search-filters">
+      <input type="text" id="search-bar" placeholder="Rechercher des jeux ou des applications...">
+
+      <div class="recent-searches" id="recent-searches" style="display: none;">
+        <ul id="recent-searches-list"></ul>
+        <button id="clear-all-searches">Effacer Tout</button>
+      </div>
+
+      <br><br>
+
+      <div class="filters">
+        <select id="filter-games">
+          <option value="all">Tous les jeux</option>
+          <option value="puzzle">Jeu de puzzle</option>
+          <option value="societe">Jeu de société</option>
+          <option value="quiz">Jeu de quiz</option>
+          <option value="memoire">Jeu de mémoire</option>
+        </select>
+
+        <select id="filter-apps">
+          <option value="all">Toutes les applications</option>
+          <option value="style">Style</option>
+          <option value="generateur">Générateur textuelle</option>
+          <option value="maths">Mathématiques</option>
+          <option value="autre">Autre</option>
+        </select>
+
+        <select id="sort-filter">
+          <option value="default">Trier par défaut</option>
+          <option value="alpha-games">Jeux par ordre alphabétique</option>
+          <option value="alpha-apps">Applications par ordre alphabétique</option>
+          <option value="alpha-all">Tout par ordre alphabétique</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Section des jeux -->
+    <h1 class="gamapp">Les jeux</h1>
+    <section class="games" id="games"></section>
+
+    <div class="gamapp-btn">
+      <button id="toggle-games-btn" class="toggle-btn">Dérouler les jeux 🔻</button> |
+      <a href="games/games.html" class="all-gamapp">Tous les jeux ↗</a>
+    </div>
+
+
+    <!-- Section des applications -->
+    <h1 class="gamapp">Les applications</h1>
+    <section class="apps" id="apps"></section>
+
+    <div class="gamapp-btn">
+      <button id="toggle-apps-btn" class="toggle-btn">Dérouler les applications 🔻</button> |
+      <a href="apps/apps.html" class="all-gamapp">Toutes les appplications ↗</a>
+    </div>
+
+    <hr>
+
+    <div class="soutien" id="soutien">
+      <p>&#10084; Payez-moi un café pour me soutenir.</p>
+      <!-- Don de 1.000 X0F -->
+      <div>
+        <p>Don fixe de 1 000 X0F.</p>
+        <button class="kkiapay-button">Via Kkiapay</button> |
+        <button id="pay-btn">Via Fedapay</button>
+      </div>
+      <!-- Don de volontaire -->
+      <div>
+        <p>Don volontaire.</p>
+        <a href="https://direct.kkiapay.me/3343/PGSGameBot-JVu9oFIfh" class="direct">Via
+          Kkiapay</a> |
+        <a href="https://me.fedapay.com/pgsgamebot" class="direct">Via Fedapay</a>
+      </div>
+    </div>
+  </main>
+
+  <footer></footer>
+
+  <!-- Popup -->
+  <div id="rate-popup" class="rate-popup">
+    <div class="popup-content">
+      <span id="rate-close" class="popup-close">&times;</span>
+      <img src="../../assets/img/pp-avis.png" alt="Donnez un avis" id="poplogo">
+      <h2>Comment évaluez-vous cette plateforme ?</h2>
+
+      <div id="emoji-container" class="emoji-container">
+        <span class="emoji" data-value="😠 Grrr...">😠</span>
+        <span class="emoji" data-value="😟 Hmm...">😟</span>
+        <span class="emoji" data-value="😐 Bof..">😐</span>
+        <span class="emoji" data-value="😊 Yay !">😊</span>
+        <span class="emoji" data-value="😍 Wow !">😍</span>
+      </div>
+
+      <textarea id="comment" placeholder="Dites-nous plus sur votre avis (200 caractères au maximum) [Facultatif]"
+        maxlength="200" rows="5" style="display: none;"></textarea>
+
+      <button id="submit-rating-btn" style="display: none;">Soumettre</button>
+    </div>
+  </div> <!-- Avis -->
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span id="popup-close" class="popup-close">&times;</span>
+      <img src="../../assets/img/pp-BlocPub.png" alt="Rejet publicité" id="poplogo">
+      <h2>Publicité rejetée</h2>
+      <p>D'accord, nous comprenons votre choix 😉. <br> Allons-y, continuons avec les
+        explorations.</p>
+      <br>
+      <a href="#" id="popup-close-btn">Continuer</a>
+    </div>
+  </div> <!-- Bloc Pub -->
+
+  <script src="assets/static/pp-load.js"></script>
+  <script src="assets/static/pp-perso.js"></script>
+  <script src="script.js"></script>
+  <script src="worker.js"></script>
+
+
+  <!-- kkiapay-->
+  <script Sandbox amount="1000" callback="https://progestionsoft.github.io" data="Faites un don" position="center"
+    theme="#0095ff" sandbox="true" key="5b5d49c8c8117b6d46b54675992d50fb8ca29e64"
+    src="https://cdn.kkiapay.me/k.js"></script>
+
+  <!-- Fedapay-->
+  <script type="text/javascript">
+    FedaPay.init('#pay-btn', {
+      public_key: 'pk_live_DQOlxWKiYAe5Smj3mNdXWPJ-',
+      transaction: {
+        amount: 1000,
+        description: 'soutenir l\'initiative'
+      },
+    });
+  </script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

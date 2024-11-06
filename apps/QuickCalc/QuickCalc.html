@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Quick Calculator - Calculatrice rapide et intuitive pour vos calculs quotidiens.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="QuickCalc.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-app.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/app-QCLogo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app">
+    <header id="header">
+      <img src="../../assets/img/app-QCLogo.png" alt="Logo Pass Master" id="logo">
+      <h1>Quick Calculator</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <button id="toggle-instructions-btn">Afficher la note</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>A savoir sur Quick Calculator :</h2>
+        <p><strong>Quick Calculator</strong> est une calculatrice performante avec des fonctionnalités avancées pour vos
+          calculs quotidiens.</p>
+
+        <h3>Opérations</h3>
+        <ol>
+          <li><strong>Basique</strong> : Vous pouvez effectuer des opérations mathématiques de base comme
+            l'addition (+), la soustraction (-), la multiplication (*) et la division (/). Entrez un nombre ou un
+            opérateur sur les bouttons de la calculatrice puis valider avec le bouton (=).</li>
+          <li><strong>Avancés</strong> : Vous pouvez utiliser des fonctions mathématiques telles que :</li>
+          <ul>
+            <li><strong>Trigonométrie</strong> : sin, cos, tan et leurs inverses.</li>
+            <li><strong>Logarithmes</strong> : log (base 10) et ln (logarithme naturel).</li>
+            <li><strong>Racines</strong> : carrée (√) et cubique (∛).</li>
+            <li><strong>Constantes</strong>: π (Pi) et e (constante d'Euler).</li>
+            <li><strong>Factorielle</strong> : utilisez x! pour calculer une factorielle (par exemple 7!).</li>
+          </ul>
+          <p>Pour afficher les fonctions avancées, appuyez sur le bouton (🔳) dans le coin inférieur gauche de la
+            calculatrice. Les fonctions avancées nécessitent une parenthèse ouverte et fermée pour être valide. Nous
+            traitons automatiquement l’ouverture de la parenthèse. N’oublier de la fermer avant de valider votre
+            opération.</p>
+        </ol>
+
+        <h3>Affichage</h3>
+        <ol>
+          <p>Deux écrans d’affichages sont disponibles :</p>
+          <li><strong>L’affichage en temps réel</strong> : Le plus petit situé totalement en haut de la calculatrice. Il
+            affiche systématique votre résultat même avant que vous ne le validiez. Ne soyez pas étonné quand il vous
+            affichera (😏) ; certainement qu’il réfléchit que vous saisissiez une valeur valide après un opérateur ou
+            peut-être qu’il vous signale une erreur.</li>
+          <li><strong>L’affichage principal</strong> : Plus grand et plus large, il affiche votre opération et
+            n’affichera le résultat que si vous validiez l’opération.</li>
+        </ol>
+
+        <h3>Gestion des mémoires</h3>
+        <ol>
+          <p>Utilisez les fonctions de mémoire pour stocker des valeurs :</p>
+          <li><strong>M+</strong>: Ajouter la valeur affichée à la mémoire.</li>
+          <li><strong>M-</strong>: Soustraire la valeur de la mémoire.</li>
+          <li><strong>MR</strong>: Rappeler la valeur stockée en mémoire.</li>
+          <li><strong>MC</strong>: Effacer la mémoire.</li>
+        </ol>
+
+        <h3>Affichage des erreurs</h3>
+        <p>Si une opération incorrecte est saisie, la calculatrice affichera un message d'erreur en rouge. Vous devrez alors réinitialiser pour recommencer.</p>
+
+        <h3>Effacer et réinitialiser</h3>
+        <p>Pour effacer un seul caractère, cliquez sur le bouton "EFF". Par contre pour réinitialiser complètement la calculatrice, utilisez le bouton "CL".</p>
+
+        <h3>Historique des calculs</h3>
+        <p>Après avoir effectuée au moins une opération, l’historique de vos calcule est systématique disponible. Vous pouvez la consulter et la télécharger si nécessaire. Pour l’instant, Nous ne prenons pas encore en charges les opérations avancées. Seul les résultats seront disponibles dans l’historique.</p>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Quick Calculator</strong> amusant et utile, n'hésitez pas à la partager avec vos amis en
+        utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <!-- Reglage des sons -->
+      <button id="toggle-sound-settings-btn">Réglage des sons</button>
+
+      <div id="sound-settings" style="display: none;">
+          <span id="sound-settings-btn" class="popup-close">&times;</span>
+
+          <h2>Désactiver sons de :</h2>
+          <label><input type="checkbox" id="toggle-touch-sound"> Touches</label>
+          <br>
+          <label><input type="checkbox" id="toggle-del-sound"> Effacer</label>
+          <br>
+          <label><input type="checkbox" id="toggle-clr-sound"> Réinitialiser</label>
+          <br>
+          <label><input type="checkbox" id="toggle-equals-sound"> Egalité</label>
+          <hr>
+          <label><input type="checkbox" id="toggle-all-sounds"> Tous les sons</label>
+      </div>
+      <br>
+
+      <div class="container">
+        <div class="history">
+          <button id="history-btn" onclick="showHistory()">Historique</button>
+          <div id="history" style="display:none;"></div>
+        </div>
+
+        <div class="calculator">
+          <span id="memory-indicator" class="memory-indicator"></span>
+          <input type="text" placeholder="0" id="real-time-result" readonly>
+          <input type="text" placeholder="0" id="output-screen" readonly>
+
+          <button class="hide" onclick="display('Crée avec ❤ par Pro Gestion Soft')" id="heart">❤</button>
+          <button onclick="memoryAdd()" class="memory">M+</button>
+          <button onclick="memorySubtract()" class="memory">M-</button>
+          <button onclick="memoryRecall()" class="memory">MR</button>
+          <button onclick="memoryClear()" class="memory">MC</button>
+
+          <button onclick="display('sin(')" class="hide" id="funct-btn">sin</button>
+          <button onclick="display('cos(')" class="hide" id="funct-btn">cos</button>
+          <button onclick="display('tan(')" class="hide" id="funct-btn">tan</button>
+          <button onclick="display('√(')" class="hide" id="funct-btn">√</button>
+          <button onclick="display('∛(')" class="hide" id="funct-btn">∛</button>
+
+          <button onclick="display('asin(')" class="hide" id="funct-btn">asin</button>
+          <button onclick="display('acos(')" class="hide" id="funct-btn">acos</button>
+          <button onclick="display('atan(')" class="hide" id="funct-btn">atan</button>
+          <button onclick="display('(')" class="hide" id="funct-btn">(</button>
+          <button onclick="display(')')" class="hide" id="funct-btn">)</button>
+
+          <button onclick="display('e')" class="hide" id="funct-btn">e</button>
+          <button onclick="clr()" class="clear">CL</button>
+          <button onclick="effacer()" class="effacer">EFF</button>
+          <button onclick="display('%')" class="signe">%</button>
+          <button onclick="display('/')" class="signe">/</button>
+
+          <button onclick="display('log(')" class="hide" id="funct-btn">log</button>
+          <button onclick="display('7')">7</button>
+          <button onclick="display('8')">8</button>
+          <button onclick="display('9')">9</button>
+          <button onclick="display('*')" class="signe">x</button>
+
+          <button onclick="display('ln(')" class="hide" id="funct-btn">ln</button>
+          <button onclick="display('4')">4</button>
+          <button onclick="display('5')">5</button>
+          <button onclick="display('6')">6</button>
+          <button onclick="display('-')" class="signe">-</button>
+
+          <button onclick="display('π')" class="hide" id="funct-btn">π</button>
+          <button onclick="display('1')">1</button>
+          <button onclick="display('2')">2</button>
+          <button onclick="display('3')">3</button>
+          <button onclick="display('+')" class="signe">+</button>
+
+          <button onclick="display('!')" class="hide" id="funct-btn">x!</button>
+          <button onclick="toggleGrid()" class="derouler">🔳</button>
+          <button onclick="display('0')">0</button>
+          <button onclick="display('.')">,</button>
+          <button onclick="calculate()" class="equal">=</button>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="QuickCalc.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

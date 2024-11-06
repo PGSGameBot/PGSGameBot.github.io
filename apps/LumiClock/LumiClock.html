@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>LumiClock - Une meilleure façon de voir le temps</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="LumiClock.css">
+  <link rel="stylesheet" href="../../assets/static/pp-root.css">
+  <link rel="stylesheet" href="../../assets/static/comon.css">
+  <link rel="stylesheet" href="../../assets/static/com-app.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="shortcut icon" href="../../assets/img/app-LCLogo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div id="app">
+    <header id="header">
+      <img src="../../assets/img/app-LCLogo.png" alt="Logo LumiClock" id="logo">
+      <h1>LumiClock</h1>
+
+      <nav></nav>
+    </header>
+
+    <main>
+      <button id="toggle-instructions-btn">Afficher la note</button>
+
+      <div id="instructions" style="display: none;">
+        <h2>A savoir sur LumiClock :</h2>
+        <p>Bienvenue sur <strong>LumiClock</strong>, votre solution élégante pour suivre le temps. <br>
+          Voici quelques conseils pour profiter pleinement de votre expérience avec notre montre :</p>
+
+        <ol>
+          <li><strong>Affichage de l'heure :</strong> LumiClock affiche l'heure de manière analogique avec des aiguilles
+            pour les heures, les minutes, et les secondes, ainsi qu'un affichage numérique en dessous. Vous pouvez
+            facilement lire l'heure en un coup d'œil.</li>
+
+          <li><strong>Affichage de la date et du jour :</strong> En haut de l'écran, LumiClock affiche également la date
+            actuelle et le jour de la semaine pour vous aider à rester organisé.</li>
+
+          <li><strong>Personnalisation :</strong> Elle est conçu pour s'adapter à toutes les tailles d'écran. Que vous
+            soyez sur un ordinateur de bureau ou un appareil mobile, l'application s'ajustera automatiquement pour
+            offrir une expérience utilisateur optimale.</li>
+        </ol>
+
+        <h3>Partager</h3>
+        <p>Si vous trouvez <strong>Lumi Clock</strong> amusante et utile, n'hésitez pas à la partager avec vos amis en
+          utilisant le bouton de partage intégré.</p>
+      </div>
+
+      <div class="select-display">
+        <div>
+          <label for="toggle-day"></label><br>
+          <select id="toggle-day" name="toggle-day">
+            <option value="" selected disabled>Afficher/Masquer aujourd'hui</option>
+            <option value="all">Tout afficher (Défaut)</option>
+            <option value="day-only">Jour uniquement</option>
+            <option value="date-only">Date uniquement</option>
+            <option value="none">Tout masquer</option>
+          </select>
+        </div>
+        
+        <div>
+          <label for="toggle-remaining-day"></label><br>
+          <select id="toggle-remaining-day" name="toggle-remaining">
+            <option value="" selected disabled>Afficher/Masquer temps restant</option>
+            <option value="all">Tout afficher (Défaut)</option>
+            <option value="day-only">Journée uniquement</option>
+            <option value="year-only">Année uniquement</option>
+            <option value="none">Tout masquer</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="display-mode"></label><br>
+          <select id="display-mode" name="display-mode">
+            <option value="" selected disabled>Choisir un affichage digital</option>
+            <option value="flexible">Flexible (Défaut)</option>
+            <option value="stylish">Stylé</option>
+            <option value="none">Tout masquer</option>
+          </select>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="day-date">
+          <div class="day"></div>
+          <div class="date"></div>
+        </div>
+
+        <div id="remainingDay"></div>
+        <div id="remainingYear"></div>
+
+        <div class="clock">
+          <div class="hand hour"></div>
+          <div class="hand min"></div>
+          <div class="hand sec"></div>
+          <div style="--i:1" class="letter"><b>1</b></div>
+          <div style="--i:2" class="letter"><b>2</b></div>
+          <div style="--i:3" class="letter"><b>3</b></div>
+          <div style="--i:4" class="letter"><b>4</b></div>
+          <div style="--i:5" class="letter"><b>5</b></div>
+          <div style="--i:6" class="letter"><b>6</b></div>
+          <div style="--i:7" class="letter"><b>7</b></div>
+          <div style="--i:8" class="letter"><b>8</b></div>
+          <div style="--i:9" class="letter"><b>9</b></div>
+          <div style="--i:10" class="letter"><b>10</b></div>
+          <div style="--i:11" class="letter"><b>11</b></div>
+          <div style="--i:12" class="letter"><b>12</b></div>
+          <div style="--i:1" class="number">|</div>
+          <div style="--i:2" class="number">|</div>
+          <div style="--i:3" class="number">|</div>
+          <div style="--i:4" class="number">|</div>
+          <div style="--i:5" class="number"><b></b></div>
+          <div style="--i:6" class="number">|</div>
+          <div style="--i:7" class="number">|</div>
+          <div style="--i:8" class="number">|</div>
+          <div style="--i:9" class="number">|</div>
+          <div style="--i:10" class="number"><b></b></div>
+          <div style="--i:11" class="number">|</div>
+          <div style="--i:12" class="number">|</div>
+          <div style="--i:13" class="number">|</div>
+          <div style="--i:14" class="number">|</div>
+          <div style="--i:15" class="number"><b class="a12"></b></div>
+          <div style="--i:16" class="number">|</div>
+          <div style="--i:17" class="number">|</div>
+          <div style="--i:18" class="number">|</div>
+          <div style="--i:19" class="number">|</div>
+          <div style="--i:20" class="number"><b></b></div>
+          <div style="--i:21" class="number">|</div>
+          <div style="--i:22" class="number">|</div>
+          <div style="--i:23" class="number">|</div>
+          <div style="--i:24" class="number">|</div>
+          <div style="--i:25" class="number"><b></b></div>
+          <div style="--i:26" class="number">|</div>
+          <div style="--i:27" class="number">|</div>
+          <div style="--i:28" class="number">|</div>
+          <div style="--i:29" class="number">|</div>
+          <div style="--i:30" class="number"><b class="a12"></b></div>
+          <div style="--i:31" class="number">|</div>
+          <div style="--i:32" class="number">|</div>
+          <div style="--i:33" class="number">|</div>
+          <div style="--i:34" class="number">|</div>
+          <div style="--i:35" class="number"><b></b></div>
+          <div style="--i:36" class="number">|</div>
+          <div style="--i:37" class="number">|</div>
+          <div style="--i:38" class="number">|</div>
+          <div style="--i:39" class="number">|</div>
+          <div style="--i:40" class="number"><b></b></div>
+          <div style="--i:41" class="number">|</div>
+          <div style="--i:42" class="number">|</div>
+          <div style="--i:43" class="number">|</div>
+          <div style="--i:44" class="number">|</div>
+          <div style="--i:45" class="number"><b class="a12"></b></div>
+          <div style="--i:46" class="number">|</div>
+          <div style="--i:47" class="number">|</div>
+          <div style="--i:48" class="number">|</div>
+          <div style="--i:49" class="number">|</div>
+          <div style="--i:50" class="number"><b></b></div>
+          <div style="--i:51" class="number">|</div>
+          <div style="--i:52" class="number">|</div>
+          <div style="--i:53" class="number">|</div>
+          <div style="--i:54" class="number">|</div>
+          <div style="--i:55" class="number"><b></b></div>
+          <div style="--i:56" class="number">|</div>
+          <div style="--i:57" class="number">|</div>
+          <div style="--i:58" class="number">|</div>
+          <div style="--i:59" class="number">|</div>
+          <div style="--i:60" class="number"><b class="a12"></b></div>
+        </div>
+        <br><br>
+
+        <div id="digital-time">
+          <button id="toggleFormat">Format 24H</button>
+
+          <div class="digital">
+            <div class="time hours">00</div>
+            <div class="time minutes">00</div>
+            <div class="time seconds">00</div>
+            <div class="time ampm">AM</div>
+          </div>
+        </div>
+
+
+        <div id="time">
+          <div class="circle" style="--clr:#F9D923">
+            <div class="dots hr_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="hh"></circle>
+            </svg>
+            <div id="hours">00</div>
+          </div>
+
+          <div class="circle" style="--clr:#55D8C1">
+            <div class="dots min_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="mm"></circle>
+            </svg>
+            <div id="minutes">00</div>
+          </div>
+
+          <div class="circle" style="--clr:#FF6FB5">
+            <div class="dots sec_dot"></div>
+            <svg>
+              <circle cx="70" cy="70" r="70"></circle>
+              <circle cx="70" cy="70" r="70" id="ss"></circle>
+            </svg>
+            <div id="seconds">00</div>
+          </div>
+
+          <div class="ap">
+            <div id="ampm"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </div>
+
+  <script src="LumiClock.js"></script>
+  <script src="../../assets/static/comon.js"></script>
+
+  <!-- Google translate-->
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>
