@@ -35,5 +35,5 @@ function toggleServiceWorker(enableServiceWorker) {
   }
 }
 
-let enableServiceWorker = false;
+let enableServiceWorker = true;
 toggleServiceWorker(enableServiceWorker);
